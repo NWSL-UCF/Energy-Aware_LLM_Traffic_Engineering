@@ -216,19 +216,6 @@ uses `YYYYMMDD_HHMMSS`).
 | `RL/training_metrics/training_metrics_<ts>.csv` | One row per optimizer step (six per PPO update): step, total / policy / value loss, policy entropy, mean batch reward, clip fraction |
 | `models/ppo_agent1_model_final.pt` | Agent checkpoint, written every 5 minutes and on shutdown when `AGENT1_SAVE_MODEL` is on and the agent ran (`USE_AGENT1 = True`); loaded at start when `AGENT1_NEW_MODEL = False` |
 
-## Notes and limitations
-
-- Meter support is negotiated per switch. A switch that reports no meter support is used
-  unmetered until it reconnects; a switch that answers a meter message with an error is
-  used unmetered for `METER_ERROR_BACKOFF_S` seconds.
-- The reward is non-monotonic in load by design: a saturated path has a low cost, so the
-  objective rewards consolidating traffic onto full links while the limits keep each path
-  under `U_TARGET`.
-- The fabric size is encoded in section 1 of `setting.py` and in the four input files;
-  all of them must agree.
-- `arp_handler.py` and `network_delay.py` are adapted from Ryu example applications
-  (Apache License 2.0).
-
 ## License
 
 No license has been chosen yet; add a `LICENSE` file before publishing.
