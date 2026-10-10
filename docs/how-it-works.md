@@ -48,37 +48,3 @@ Parameter names refer to [`setting.py`](../setting.py); the main ones are listed
    a metered entry idles out, the switch's FlowRemoved message releases the meter and the
    per-flow record is written.
 
-## Formulas
-
-Link power (`power_model.py`), linear in utilisation; `POWER_CONSUMPTION_FACTOR` is the
-power of a fully used link in watts and only scales the reported power, not the reward
-or the limits:
-
-```
-P_link  = util * POWER_CONSUMPTION_FACTOR
-P_p     = sum of P_link over the path's monitored links
-P_total = sum over all monitored links,  P_max = N_links * link_power(1.0)
-```
-
-Reward of path p (`energy_reward.py`):
-
-```
-prop_p       = (P_p / n_hops_p) / (P_total / N_links)            # 'relative' mode
-path_cost_p  = clamp01( scale * (1 - ALU_p) * MLU_p * prop_p )
-network_cost = (1 - ALU_net) * MLU_net * (P_total / P_max)
-reward_p     = 1 - clamp01( w * path_cost_p + (1 - w) * network_cost )
-```
-
-Bandwidth limit of path p in Mbps (`bw_limit.py`):
-
-```
-resid = clamp01( (U_TARGET - MLU_p) / U_TARGET )
-share = p_norm ** PROB_EXP * resid ** RESID_EXP
-raw   = BW_BOTTLENECK_CAP_Mbps * share / max(1, n_active_p)
-limit = clamp(raw, BW_MIN_Mbps, BW_MAX_Mbps), then EWMA-smoothed and quantised
-```
-
-`p_norm` is the path's probability divided by the highest probability of its source–
-destination pair (`BW_PROB_NORMALIZATION = 'max'`). `BW_BOTTLENECK_CAP_Mbps` is
-`LINK_MAX_CAPACITY` in Mbps (400); `PROB_EXP` and `RESID_EXP` are 1.0; the smoothing weight
-is `BW_SMOOTH_ALPHA` (0.5) and the quantum `BW_QUANTUM_Mbps` (0.5).
