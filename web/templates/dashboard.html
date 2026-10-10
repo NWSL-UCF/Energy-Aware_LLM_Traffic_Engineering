@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SDN Network Monitoring Dashboard</title>
+    <link rel="stylesheet" href="/web/static/css/dashboard.css">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="header">
+        <h1>SDN Network Monitoring Dashboard</h1>
+        <p>Real-time network monitoring and control interface</p>
+    </div>
+
+    <div class="nav-menu">
+        <a href="/dashboard">Dashboard</a>
+        <a href="/topology-view">Topology</a>
+        <a href="/flow-monitoring">Flow Monitoring</a>
+        <a href="/agent-control">Agent Control</a>
+        <button class="refresh-btn" onclick="refreshData()">Refresh Data</button>
+    </div>
+
+    <div class="stats-grid" id="statsGrid">
+        <!-- Stats cards will be populated by JavaScript -->
+    </div>
+
+    <div class="chart-container">
+        <h3>Link Utilization</h3>
+        <div id="utilizationChart" style="height: 400px;"></div>
+    </div>
+
+    <div class="chart-container">
+        <h3>Path Performance</h3>
+        <div id="pathChart" style="height: 400px;"></div>
+    </div>
+
+    <script src="/web/static/js/dashboard.js"></script>
+</body>
+</html>

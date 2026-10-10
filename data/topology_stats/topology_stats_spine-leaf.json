@@ -1,0 +1,7566 @@
+{
+  "links": {
+    "Spine1-ULeaf1": {
+      "node1": "Spine1",
+      "port1": "Spine1-eth1",
+      "node2": "ULeaf1",
+      "port2": "ULeaf1-eth1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine1-ULeaf2": {
+      "node1": "Spine1",
+      "port1": "Spine1-eth2",
+      "node2": "ULeaf2",
+      "port2": "ULeaf2-eth1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine1-ULeaf3": {
+      "node1": "Spine1",
+      "port1": "Spine1-eth3",
+      "node2": "ULeaf3",
+      "port2": "ULeaf3-eth1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine1-ULeaf4": {
+      "node1": "Spine1",
+      "port1": "Spine1-eth4",
+      "node2": "ULeaf4",
+      "port2": "ULeaf4-eth1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine1-ULeaf5": {
+      "node1": "Spine1",
+      "port1": "Spine1-eth5",
+      "node2": "ULeaf5",
+      "port2": "ULeaf5-eth1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine1-ULeaf6": {
+      "node1": "Spine1",
+      "port1": "Spine1-eth6",
+      "node2": "ULeaf6",
+      "port2": "ULeaf6-eth1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine1-ULeaf7": {
+      "node1": "Spine1",
+      "port1": "Spine1-eth7",
+      "node2": "ULeaf7",
+      "port2": "ULeaf7-eth1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine1-ULeaf8": {
+      "node1": "Spine1",
+      "port1": "Spine1-eth8",
+      "node2": "ULeaf8",
+      "port2": "ULeaf8-eth1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine1-ULeaf9": {
+      "node1": "Spine1",
+      "port1": "Spine1-eth9",
+      "node2": "ULeaf9",
+      "port2": "ULeaf9-eth1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine1-ULeaf10": {
+      "node1": "Spine1",
+      "port1": "Spine1-eth10",
+      "node2": "ULeaf10",
+      "port2": "ULeaf10-eth1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine1-ULeaf11": {
+      "node1": "Spine1",
+      "port1": "Spine1-eth11",
+      "node2": "ULeaf11",
+      "port2": "ULeaf11-eth1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine1-ULeaf12": {
+      "node1": "Spine1",
+      "port1": "Spine1-eth12",
+      "node2": "ULeaf12",
+      "port2": "ULeaf12-eth1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine1-ULeaf13": {
+      "node1": "Spine1",
+      "port1": "Spine1-eth13",
+      "node2": "ULeaf13",
+      "port2": "ULeaf13-eth1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine1-ULeaf14": {
+      "node1": "Spine1",
+      "port1": "Spine1-eth14",
+      "node2": "ULeaf14",
+      "port2": "ULeaf14-eth1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine1-ULeaf15": {
+      "node1": "Spine1",
+      "port1": "Spine1-eth15",
+      "node2": "ULeaf15",
+      "port2": "ULeaf15-eth1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine1-ULeaf16": {
+      "node1": "Spine1",
+      "port1": "Spine1-eth16",
+      "node2": "ULeaf16",
+      "port2": "ULeaf16-eth1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine1-ULeaf17": {
+      "node1": "Spine1",
+      "port1": "Spine1-eth17",
+      "node2": "ULeaf17",
+      "port2": "ULeaf17-eth1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine1-ULeaf18": {
+      "node1": "Spine1",
+      "port1": "Spine1-eth18",
+      "node2": "ULeaf18",
+      "port2": "ULeaf18-eth1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine2-ULeaf1": {
+      "node1": "Spine2",
+      "port1": "Spine2-eth1",
+      "node2": "ULeaf1",
+      "port2": "ULeaf1-eth2",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine2-ULeaf2": {
+      "node1": "Spine2",
+      "port1": "Spine2-eth2",
+      "node2": "ULeaf2",
+      "port2": "ULeaf2-eth2",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine2-ULeaf3": {
+      "node1": "Spine2",
+      "port1": "Spine2-eth3",
+      "node2": "ULeaf3",
+      "port2": "ULeaf3-eth2",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine2-ULeaf4": {
+      "node1": "Spine2",
+      "port1": "Spine2-eth4",
+      "node2": "ULeaf4",
+      "port2": "ULeaf4-eth2",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine2-ULeaf5": {
+      "node1": "Spine2",
+      "port1": "Spine2-eth5",
+      "node2": "ULeaf5",
+      "port2": "ULeaf5-eth2",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine2-ULeaf6": {
+      "node1": "Spine2",
+      "port1": "Spine2-eth6",
+      "node2": "ULeaf6",
+      "port2": "ULeaf6-eth2",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine2-ULeaf7": {
+      "node1": "Spine2",
+      "port1": "Spine2-eth7",
+      "node2": "ULeaf7",
+      "port2": "ULeaf7-eth2",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine2-ULeaf8": {
+      "node1": "Spine2",
+      "port1": "Spine2-eth8",
+      "node2": "ULeaf8",
+      "port2": "ULeaf8-eth2",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine2-ULeaf9": {
+      "node1": "Spine2",
+      "port1": "Spine2-eth9",
+      "node2": "ULeaf9",
+      "port2": "ULeaf9-eth2",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine2-ULeaf10": {
+      "node1": "Spine2",
+      "port1": "Spine2-eth10",
+      "node2": "ULeaf10",
+      "port2": "ULeaf10-eth2",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine2-ULeaf11": {
+      "node1": "Spine2",
+      "port1": "Spine2-eth11",
+      "node2": "ULeaf11",
+      "port2": "ULeaf11-eth2",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine2-ULeaf12": {
+      "node1": "Spine2",
+      "port1": "Spine2-eth12",
+      "node2": "ULeaf12",
+      "port2": "ULeaf12-eth2",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine2-ULeaf13": {
+      "node1": "Spine2",
+      "port1": "Spine2-eth13",
+      "node2": "ULeaf13",
+      "port2": "ULeaf13-eth2",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine2-ULeaf14": {
+      "node1": "Spine2",
+      "port1": "Spine2-eth14",
+      "node2": "ULeaf14",
+      "port2": "ULeaf14-eth2",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine2-ULeaf15": {
+      "node1": "Spine2",
+      "port1": "Spine2-eth15",
+      "node2": "ULeaf15",
+      "port2": "ULeaf15-eth2",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine2-ULeaf16": {
+      "node1": "Spine2",
+      "port1": "Spine2-eth16",
+      "node2": "ULeaf16",
+      "port2": "ULeaf16-eth2",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine2-ULeaf17": {
+      "node1": "Spine2",
+      "port1": "Spine2-eth17",
+      "node2": "ULeaf17",
+      "port2": "ULeaf17-eth2",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine2-ULeaf18": {
+      "node1": "Spine2",
+      "port1": "Spine2-eth18",
+      "node2": "ULeaf18",
+      "port2": "ULeaf18-eth2",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine3-ULeaf1": {
+      "node1": "Spine3",
+      "port1": "Spine3-eth1",
+      "node2": "ULeaf1",
+      "port2": "ULeaf1-eth3",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine3-ULeaf2": {
+      "node1": "Spine3",
+      "port1": "Spine3-eth2",
+      "node2": "ULeaf2",
+      "port2": "ULeaf2-eth3",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine3-ULeaf3": {
+      "node1": "Spine3",
+      "port1": "Spine3-eth3",
+      "node2": "ULeaf3",
+      "port2": "ULeaf3-eth3",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine3-ULeaf4": {
+      "node1": "Spine3",
+      "port1": "Spine3-eth4",
+      "node2": "ULeaf4",
+      "port2": "ULeaf4-eth3",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine3-ULeaf5": {
+      "node1": "Spine3",
+      "port1": "Spine3-eth5",
+      "node2": "ULeaf5",
+      "port2": "ULeaf5-eth3",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine3-ULeaf6": {
+      "node1": "Spine3",
+      "port1": "Spine3-eth6",
+      "node2": "ULeaf6",
+      "port2": "ULeaf6-eth3",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine3-ULeaf7": {
+      "node1": "Spine3",
+      "port1": "Spine3-eth7",
+      "node2": "ULeaf7",
+      "port2": "ULeaf7-eth3",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine3-ULeaf8": {
+      "node1": "Spine3",
+      "port1": "Spine3-eth8",
+      "node2": "ULeaf8",
+      "port2": "ULeaf8-eth3",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine3-ULeaf9": {
+      "node1": "Spine3",
+      "port1": "Spine3-eth9",
+      "node2": "ULeaf9",
+      "port2": "ULeaf9-eth3",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine3-ULeaf10": {
+      "node1": "Spine3",
+      "port1": "Spine3-eth10",
+      "node2": "ULeaf10",
+      "port2": "ULeaf10-eth3",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine3-ULeaf11": {
+      "node1": "Spine3",
+      "port1": "Spine3-eth11",
+      "node2": "ULeaf11",
+      "port2": "ULeaf11-eth3",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine3-ULeaf12": {
+      "node1": "Spine3",
+      "port1": "Spine3-eth12",
+      "node2": "ULeaf12",
+      "port2": "ULeaf12-eth3",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine3-ULeaf13": {
+      "node1": "Spine3",
+      "port1": "Spine3-eth13",
+      "node2": "ULeaf13",
+      "port2": "ULeaf13-eth3",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine3-ULeaf14": {
+      "node1": "Spine3",
+      "port1": "Spine3-eth14",
+      "node2": "ULeaf14",
+      "port2": "ULeaf14-eth3",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine3-ULeaf15": {
+      "node1": "Spine3",
+      "port1": "Spine3-eth15",
+      "node2": "ULeaf15",
+      "port2": "ULeaf15-eth3",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine3-ULeaf16": {
+      "node1": "Spine3",
+      "port1": "Spine3-eth16",
+      "node2": "ULeaf16",
+      "port2": "ULeaf16-eth3",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine3-ULeaf17": {
+      "node1": "Spine3",
+      "port1": "Spine3-eth17",
+      "node2": "ULeaf17",
+      "port2": "ULeaf17-eth3",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine3-ULeaf18": {
+      "node1": "Spine3",
+      "port1": "Spine3-eth18",
+      "node2": "ULeaf18",
+      "port2": "ULeaf18-eth3",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine4-ULeaf1": {
+      "node1": "Spine4",
+      "port1": "Spine4-eth1",
+      "node2": "ULeaf1",
+      "port2": "ULeaf1-eth4",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine4-ULeaf2": {
+      "node1": "Spine4",
+      "port1": "Spine4-eth2",
+      "node2": "ULeaf2",
+      "port2": "ULeaf2-eth4",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine4-ULeaf3": {
+      "node1": "Spine4",
+      "port1": "Spine4-eth3",
+      "node2": "ULeaf3",
+      "port2": "ULeaf3-eth4",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine4-ULeaf4": {
+      "node1": "Spine4",
+      "port1": "Spine4-eth4",
+      "node2": "ULeaf4",
+      "port2": "ULeaf4-eth4",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine4-ULeaf5": {
+      "node1": "Spine4",
+      "port1": "Spine4-eth5",
+      "node2": "ULeaf5",
+      "port2": "ULeaf5-eth4",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine4-ULeaf6": {
+      "node1": "Spine4",
+      "port1": "Spine4-eth6",
+      "node2": "ULeaf6",
+      "port2": "ULeaf6-eth4",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine4-ULeaf7": {
+      "node1": "Spine4",
+      "port1": "Spine4-eth7",
+      "node2": "ULeaf7",
+      "port2": "ULeaf7-eth4",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine4-ULeaf8": {
+      "node1": "Spine4",
+      "port1": "Spine4-eth8",
+      "node2": "ULeaf8",
+      "port2": "ULeaf8-eth4",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine4-ULeaf9": {
+      "node1": "Spine4",
+      "port1": "Spine4-eth9",
+      "node2": "ULeaf9",
+      "port2": "ULeaf9-eth4",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine4-ULeaf10": {
+      "node1": "Spine4",
+      "port1": "Spine4-eth10",
+      "node2": "ULeaf10",
+      "port2": "ULeaf10-eth4",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine4-ULeaf11": {
+      "node1": "Spine4",
+      "port1": "Spine4-eth11",
+      "node2": "ULeaf11",
+      "port2": "ULeaf11-eth4",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine4-ULeaf12": {
+      "node1": "Spine4",
+      "port1": "Spine4-eth12",
+      "node2": "ULeaf12",
+      "port2": "ULeaf12-eth4",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine4-ULeaf13": {
+      "node1": "Spine4",
+      "port1": "Spine4-eth13",
+      "node2": "ULeaf13",
+      "port2": "ULeaf13-eth4",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine4-ULeaf14": {
+      "node1": "Spine4",
+      "port1": "Spine4-eth14",
+      "node2": "ULeaf14",
+      "port2": "ULeaf14-eth4",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine4-ULeaf15": {
+      "node1": "Spine4",
+      "port1": "Spine4-eth15",
+      "node2": "ULeaf15",
+      "port2": "ULeaf15-eth4",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine4-ULeaf16": {
+      "node1": "Spine4",
+      "port1": "Spine4-eth16",
+      "node2": "ULeaf16",
+      "port2": "ULeaf16-eth4",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine4-ULeaf17": {
+      "node1": "Spine4",
+      "port1": "Spine4-eth17",
+      "node2": "ULeaf17",
+      "port2": "ULeaf17-eth4",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine4-ULeaf18": {
+      "node1": "Spine4",
+      "port1": "Spine4-eth18",
+      "node2": "ULeaf18",
+      "port2": "ULeaf18-eth4",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine5-ULeaf1": {
+      "node1": "Spine5",
+      "port1": "Spine5-eth1",
+      "node2": "ULeaf1",
+      "port2": "ULeaf1-eth5",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine5-ULeaf2": {
+      "node1": "Spine5",
+      "port1": "Spine5-eth2",
+      "node2": "ULeaf2",
+      "port2": "ULeaf2-eth5",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine5-ULeaf3": {
+      "node1": "Spine5",
+      "port1": "Spine5-eth3",
+      "node2": "ULeaf3",
+      "port2": "ULeaf3-eth5",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine5-ULeaf4": {
+      "node1": "Spine5",
+      "port1": "Spine5-eth4",
+      "node2": "ULeaf4",
+      "port2": "ULeaf4-eth5",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine5-ULeaf5": {
+      "node1": "Spine5",
+      "port1": "Spine5-eth5",
+      "node2": "ULeaf5",
+      "port2": "ULeaf5-eth5",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine5-ULeaf6": {
+      "node1": "Spine5",
+      "port1": "Spine5-eth6",
+      "node2": "ULeaf6",
+      "port2": "ULeaf6-eth5",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine5-ULeaf7": {
+      "node1": "Spine5",
+      "port1": "Spine5-eth7",
+      "node2": "ULeaf7",
+      "port2": "ULeaf7-eth5",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine5-ULeaf8": {
+      "node1": "Spine5",
+      "port1": "Spine5-eth8",
+      "node2": "ULeaf8",
+      "port2": "ULeaf8-eth5",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine5-ULeaf9": {
+      "node1": "Spine5",
+      "port1": "Spine5-eth9",
+      "node2": "ULeaf9",
+      "port2": "ULeaf9-eth5",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine5-ULeaf10": {
+      "node1": "Spine5",
+      "port1": "Spine5-eth10",
+      "node2": "ULeaf10",
+      "port2": "ULeaf10-eth5",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine5-ULeaf11": {
+      "node1": "Spine5",
+      "port1": "Spine5-eth11",
+      "node2": "ULeaf11",
+      "port2": "ULeaf11-eth5",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine5-ULeaf12": {
+      "node1": "Spine5",
+      "port1": "Spine5-eth12",
+      "node2": "ULeaf12",
+      "port2": "ULeaf12-eth5",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine5-ULeaf13": {
+      "node1": "Spine5",
+      "port1": "Spine5-eth13",
+      "node2": "ULeaf13",
+      "port2": "ULeaf13-eth5",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine5-ULeaf14": {
+      "node1": "Spine5",
+      "port1": "Spine5-eth14",
+      "node2": "ULeaf14",
+      "port2": "ULeaf14-eth5",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine5-ULeaf15": {
+      "node1": "Spine5",
+      "port1": "Spine5-eth15",
+      "node2": "ULeaf15",
+      "port2": "ULeaf15-eth5",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine5-ULeaf16": {
+      "node1": "Spine5",
+      "port1": "Spine5-eth16",
+      "node2": "ULeaf16",
+      "port2": "ULeaf16-eth5",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine5-ULeaf17": {
+      "node1": "Spine5",
+      "port1": "Spine5-eth17",
+      "node2": "ULeaf17",
+      "port2": "ULeaf17-eth5",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine5-ULeaf18": {
+      "node1": "Spine5",
+      "port1": "Spine5-eth18",
+      "node2": "ULeaf18",
+      "port2": "ULeaf18-eth5",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine6-ULeaf1": {
+      "node1": "Spine6",
+      "port1": "Spine6-eth1",
+      "node2": "ULeaf1",
+      "port2": "ULeaf1-eth6",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine6-ULeaf2": {
+      "node1": "Spine6",
+      "port1": "Spine6-eth2",
+      "node2": "ULeaf2",
+      "port2": "ULeaf2-eth6",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine6-ULeaf3": {
+      "node1": "Spine6",
+      "port1": "Spine6-eth3",
+      "node2": "ULeaf3",
+      "port2": "ULeaf3-eth6",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine6-ULeaf4": {
+      "node1": "Spine6",
+      "port1": "Spine6-eth4",
+      "node2": "ULeaf4",
+      "port2": "ULeaf4-eth6",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine6-ULeaf5": {
+      "node1": "Spine6",
+      "port1": "Spine6-eth5",
+      "node2": "ULeaf5",
+      "port2": "ULeaf5-eth6",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine6-ULeaf6": {
+      "node1": "Spine6",
+      "port1": "Spine6-eth6",
+      "node2": "ULeaf6",
+      "port2": "ULeaf6-eth6",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine6-ULeaf7": {
+      "node1": "Spine6",
+      "port1": "Spine6-eth7",
+      "node2": "ULeaf7",
+      "port2": "ULeaf7-eth6",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine6-ULeaf8": {
+      "node1": "Spine6",
+      "port1": "Spine6-eth8",
+      "node2": "ULeaf8",
+      "port2": "ULeaf8-eth6",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine6-ULeaf9": {
+      "node1": "Spine6",
+      "port1": "Spine6-eth9",
+      "node2": "ULeaf9",
+      "port2": "ULeaf9-eth6",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine6-ULeaf10": {
+      "node1": "Spine6",
+      "port1": "Spine6-eth10",
+      "node2": "ULeaf10",
+      "port2": "ULeaf10-eth6",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine6-ULeaf11": {
+      "node1": "Spine6",
+      "port1": "Spine6-eth11",
+      "node2": "ULeaf11",
+      "port2": "ULeaf11-eth6",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine6-ULeaf12": {
+      "node1": "Spine6",
+      "port1": "Spine6-eth12",
+      "node2": "ULeaf12",
+      "port2": "ULeaf12-eth6",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine6-ULeaf13": {
+      "node1": "Spine6",
+      "port1": "Spine6-eth13",
+      "node2": "ULeaf13",
+      "port2": "ULeaf13-eth6",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine6-ULeaf14": {
+      "node1": "Spine6",
+      "port1": "Spine6-eth14",
+      "node2": "ULeaf14",
+      "port2": "ULeaf14-eth6",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine6-ULeaf15": {
+      "node1": "Spine6",
+      "port1": "Spine6-eth15",
+      "node2": "ULeaf15",
+      "port2": "ULeaf15-eth6",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine6-ULeaf16": {
+      "node1": "Spine6",
+      "port1": "Spine6-eth16",
+      "node2": "ULeaf16",
+      "port2": "ULeaf16-eth6",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine6-ULeaf17": {
+      "node1": "Spine6",
+      "port1": "Spine6-eth17",
+      "node2": "ULeaf17",
+      "port2": "ULeaf17-eth6",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine6-ULeaf18": {
+      "node1": "Spine6",
+      "port1": "Spine6-eth18",
+      "node2": "ULeaf18",
+      "port2": "ULeaf18-eth6",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine7-ULeaf1": {
+      "node1": "Spine7",
+      "port1": "Spine7-eth1",
+      "node2": "ULeaf1",
+      "port2": "ULeaf1-eth7",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine7-ULeaf2": {
+      "node1": "Spine7",
+      "port1": "Spine7-eth2",
+      "node2": "ULeaf2",
+      "port2": "ULeaf2-eth7",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine7-ULeaf3": {
+      "node1": "Spine7",
+      "port1": "Spine7-eth3",
+      "node2": "ULeaf3",
+      "port2": "ULeaf3-eth7",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine7-ULeaf4": {
+      "node1": "Spine7",
+      "port1": "Spine7-eth4",
+      "node2": "ULeaf4",
+      "port2": "ULeaf4-eth7",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine7-ULeaf5": {
+      "node1": "Spine7",
+      "port1": "Spine7-eth5",
+      "node2": "ULeaf5",
+      "port2": "ULeaf5-eth7",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine7-ULeaf6": {
+      "node1": "Spine7",
+      "port1": "Spine7-eth6",
+      "node2": "ULeaf6",
+      "port2": "ULeaf6-eth7",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine7-ULeaf7": {
+      "node1": "Spine7",
+      "port1": "Spine7-eth7",
+      "node2": "ULeaf7",
+      "port2": "ULeaf7-eth7",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine7-ULeaf8": {
+      "node1": "Spine7",
+      "port1": "Spine7-eth8",
+      "node2": "ULeaf8",
+      "port2": "ULeaf8-eth7",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine7-ULeaf9": {
+      "node1": "Spine7",
+      "port1": "Spine7-eth9",
+      "node2": "ULeaf9",
+      "port2": "ULeaf9-eth7",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine7-ULeaf10": {
+      "node1": "Spine7",
+      "port1": "Spine7-eth10",
+      "node2": "ULeaf10",
+      "port2": "ULeaf10-eth7",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine7-ULeaf11": {
+      "node1": "Spine7",
+      "port1": "Spine7-eth11",
+      "node2": "ULeaf11",
+      "port2": "ULeaf11-eth7",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine7-ULeaf12": {
+      "node1": "Spine7",
+      "port1": "Spine7-eth12",
+      "node2": "ULeaf12",
+      "port2": "ULeaf12-eth7",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine7-ULeaf13": {
+      "node1": "Spine7",
+      "port1": "Spine7-eth13",
+      "node2": "ULeaf13",
+      "port2": "ULeaf13-eth7",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine7-ULeaf14": {
+      "node1": "Spine7",
+      "port1": "Spine7-eth14",
+      "node2": "ULeaf14",
+      "port2": "ULeaf14-eth7",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine7-ULeaf15": {
+      "node1": "Spine7",
+      "port1": "Spine7-eth15",
+      "node2": "ULeaf15",
+      "port2": "ULeaf15-eth7",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine7-ULeaf16": {
+      "node1": "Spine7",
+      "port1": "Spine7-eth16",
+      "node2": "ULeaf16",
+      "port2": "ULeaf16-eth7",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine7-ULeaf17": {
+      "node1": "Spine7",
+      "port1": "Spine7-eth17",
+      "node2": "ULeaf17",
+      "port2": "ULeaf17-eth7",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine7-ULeaf18": {
+      "node1": "Spine7",
+      "port1": "Spine7-eth18",
+      "node2": "ULeaf18",
+      "port2": "ULeaf18-eth7",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine8-ULeaf1": {
+      "node1": "Spine8",
+      "port1": "Spine8-eth1",
+      "node2": "ULeaf1",
+      "port2": "ULeaf1-eth8",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine8-ULeaf2": {
+      "node1": "Spine8",
+      "port1": "Spine8-eth2",
+      "node2": "ULeaf2",
+      "port2": "ULeaf2-eth8",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine8-ULeaf3": {
+      "node1": "Spine8",
+      "port1": "Spine8-eth3",
+      "node2": "ULeaf3",
+      "port2": "ULeaf3-eth8",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine8-ULeaf4": {
+      "node1": "Spine8",
+      "port1": "Spine8-eth4",
+      "node2": "ULeaf4",
+      "port2": "ULeaf4-eth8",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine8-ULeaf5": {
+      "node1": "Spine8",
+      "port1": "Spine8-eth5",
+      "node2": "ULeaf5",
+      "port2": "ULeaf5-eth8",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine8-ULeaf6": {
+      "node1": "Spine8",
+      "port1": "Spine8-eth6",
+      "node2": "ULeaf6",
+      "port2": "ULeaf6-eth8",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine8-ULeaf7": {
+      "node1": "Spine8",
+      "port1": "Spine8-eth7",
+      "node2": "ULeaf7",
+      "port2": "ULeaf7-eth8",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine8-ULeaf8": {
+      "node1": "Spine8",
+      "port1": "Spine8-eth8",
+      "node2": "ULeaf8",
+      "port2": "ULeaf8-eth8",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine8-ULeaf9": {
+      "node1": "Spine8",
+      "port1": "Spine8-eth9",
+      "node2": "ULeaf9",
+      "port2": "ULeaf9-eth8",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine8-ULeaf10": {
+      "node1": "Spine8",
+      "port1": "Spine8-eth10",
+      "node2": "ULeaf10",
+      "port2": "ULeaf10-eth8",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine8-ULeaf11": {
+      "node1": "Spine8",
+      "port1": "Spine8-eth11",
+      "node2": "ULeaf11",
+      "port2": "ULeaf11-eth8",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine8-ULeaf12": {
+      "node1": "Spine8",
+      "port1": "Spine8-eth12",
+      "node2": "ULeaf12",
+      "port2": "ULeaf12-eth8",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine8-ULeaf13": {
+      "node1": "Spine8",
+      "port1": "Spine8-eth13",
+      "node2": "ULeaf13",
+      "port2": "ULeaf13-eth8",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine8-ULeaf14": {
+      "node1": "Spine8",
+      "port1": "Spine8-eth14",
+      "node2": "ULeaf14",
+      "port2": "ULeaf14-eth8",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine8-ULeaf15": {
+      "node1": "Spine8",
+      "port1": "Spine8-eth15",
+      "node2": "ULeaf15",
+      "port2": "ULeaf15-eth8",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine8-ULeaf16": {
+      "node1": "Spine8",
+      "port1": "Spine8-eth16",
+      "node2": "ULeaf16",
+      "port2": "ULeaf16-eth8",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine8-ULeaf17": {
+      "node1": "Spine8",
+      "port1": "Spine8-eth17",
+      "node2": "ULeaf17",
+      "port2": "ULeaf17-eth8",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine8-ULeaf18": {
+      "node1": "Spine8",
+      "port1": "Spine8-eth18",
+      "node2": "ULeaf18",
+      "port2": "ULeaf18-eth8",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine9-ULeaf1": {
+      "node1": "Spine9",
+      "port1": "Spine9-eth1",
+      "node2": "ULeaf1",
+      "port2": "ULeaf1-eth9",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine9-ULeaf2": {
+      "node1": "Spine9",
+      "port1": "Spine9-eth2",
+      "node2": "ULeaf2",
+      "port2": "ULeaf2-eth9",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine9-ULeaf3": {
+      "node1": "Spine9",
+      "port1": "Spine9-eth3",
+      "node2": "ULeaf3",
+      "port2": "ULeaf3-eth9",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine9-ULeaf4": {
+      "node1": "Spine9",
+      "port1": "Spine9-eth4",
+      "node2": "ULeaf4",
+      "port2": "ULeaf4-eth9",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine9-ULeaf5": {
+      "node1": "Spine9",
+      "port1": "Spine9-eth5",
+      "node2": "ULeaf5",
+      "port2": "ULeaf5-eth9",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine9-ULeaf6": {
+      "node1": "Spine9",
+      "port1": "Spine9-eth6",
+      "node2": "ULeaf6",
+      "port2": "ULeaf6-eth9",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine9-ULeaf7": {
+      "node1": "Spine9",
+      "port1": "Spine9-eth7",
+      "node2": "ULeaf7",
+      "port2": "ULeaf7-eth9",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine9-ULeaf8": {
+      "node1": "Spine9",
+      "port1": "Spine9-eth8",
+      "node2": "ULeaf8",
+      "port2": "ULeaf8-eth9",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine9-ULeaf9": {
+      "node1": "Spine9",
+      "port1": "Spine9-eth9",
+      "node2": "ULeaf9",
+      "port2": "ULeaf9-eth9",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine9-ULeaf10": {
+      "node1": "Spine9",
+      "port1": "Spine9-eth10",
+      "node2": "ULeaf10",
+      "port2": "ULeaf10-eth9",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine9-ULeaf11": {
+      "node1": "Spine9",
+      "port1": "Spine9-eth11",
+      "node2": "ULeaf11",
+      "port2": "ULeaf11-eth9",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine9-ULeaf12": {
+      "node1": "Spine9",
+      "port1": "Spine9-eth12",
+      "node2": "ULeaf12",
+      "port2": "ULeaf12-eth9",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine9-ULeaf13": {
+      "node1": "Spine9",
+      "port1": "Spine9-eth13",
+      "node2": "ULeaf13",
+      "port2": "ULeaf13-eth9",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine9-ULeaf14": {
+      "node1": "Spine9",
+      "port1": "Spine9-eth14",
+      "node2": "ULeaf14",
+      "port2": "ULeaf14-eth9",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine9-ULeaf15": {
+      "node1": "Spine9",
+      "port1": "Spine9-eth15",
+      "node2": "ULeaf15",
+      "port2": "ULeaf15-eth9",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine9-ULeaf16": {
+      "node1": "Spine9",
+      "port1": "Spine9-eth16",
+      "node2": "ULeaf16",
+      "port2": "ULeaf16-eth9",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine9-ULeaf17": {
+      "node1": "Spine9",
+      "port1": "Spine9-eth17",
+      "node2": "ULeaf17",
+      "port2": "ULeaf17-eth9",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine9-ULeaf18": {
+      "node1": "Spine9",
+      "port1": "Spine9-eth18",
+      "node2": "ULeaf18",
+      "port2": "ULeaf18-eth9",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine10-ULeaf1": {
+      "node1": "Spine10",
+      "port1": "Spine10-eth1",
+      "node2": "ULeaf1",
+      "port2": "ULeaf1-eth10",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine10-ULeaf2": {
+      "node1": "Spine10",
+      "port1": "Spine10-eth2",
+      "node2": "ULeaf2",
+      "port2": "ULeaf2-eth10",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine10-ULeaf3": {
+      "node1": "Spine10",
+      "port1": "Spine10-eth3",
+      "node2": "ULeaf3",
+      "port2": "ULeaf3-eth10",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine10-ULeaf4": {
+      "node1": "Spine10",
+      "port1": "Spine10-eth4",
+      "node2": "ULeaf4",
+      "port2": "ULeaf4-eth10",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine10-ULeaf5": {
+      "node1": "Spine10",
+      "port1": "Spine10-eth5",
+      "node2": "ULeaf5",
+      "port2": "ULeaf5-eth10",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine10-ULeaf6": {
+      "node1": "Spine10",
+      "port1": "Spine10-eth6",
+      "node2": "ULeaf6",
+      "port2": "ULeaf6-eth10",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine10-ULeaf7": {
+      "node1": "Spine10",
+      "port1": "Spine10-eth7",
+      "node2": "ULeaf7",
+      "port2": "ULeaf7-eth10",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine10-ULeaf8": {
+      "node1": "Spine10",
+      "port1": "Spine10-eth8",
+      "node2": "ULeaf8",
+      "port2": "ULeaf8-eth10",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine10-ULeaf9": {
+      "node1": "Spine10",
+      "port1": "Spine10-eth9",
+      "node2": "ULeaf9",
+      "port2": "ULeaf9-eth10",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine10-ULeaf10": {
+      "node1": "Spine10",
+      "port1": "Spine10-eth10",
+      "node2": "ULeaf10",
+      "port2": "ULeaf10-eth10",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine10-ULeaf11": {
+      "node1": "Spine10",
+      "port1": "Spine10-eth11",
+      "node2": "ULeaf11",
+      "port2": "ULeaf11-eth10",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine10-ULeaf12": {
+      "node1": "Spine10",
+      "port1": "Spine10-eth12",
+      "node2": "ULeaf12",
+      "port2": "ULeaf12-eth10",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine10-ULeaf13": {
+      "node1": "Spine10",
+      "port1": "Spine10-eth13",
+      "node2": "ULeaf13",
+      "port2": "ULeaf13-eth10",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine10-ULeaf14": {
+      "node1": "Spine10",
+      "port1": "Spine10-eth14",
+      "node2": "ULeaf14",
+      "port2": "ULeaf14-eth10",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine10-ULeaf15": {
+      "node1": "Spine10",
+      "port1": "Spine10-eth15",
+      "node2": "ULeaf15",
+      "port2": "ULeaf15-eth10",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine10-ULeaf16": {
+      "node1": "Spine10",
+      "port1": "Spine10-eth16",
+      "node2": "ULeaf16",
+      "port2": "ULeaf16-eth10",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine10-ULeaf17": {
+      "node1": "Spine10",
+      "port1": "Spine10-eth17",
+      "node2": "ULeaf17",
+      "port2": "ULeaf17-eth10",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine10-ULeaf18": {
+      "node1": "Spine10",
+      "port1": "Spine10-eth18",
+      "node2": "ULeaf18",
+      "port2": "ULeaf18-eth10",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine11-ULeaf1": {
+      "node1": "Spine11",
+      "port1": "Spine11-eth1",
+      "node2": "ULeaf1",
+      "port2": "ULeaf1-eth11",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine11-ULeaf2": {
+      "node1": "Spine11",
+      "port1": "Spine11-eth2",
+      "node2": "ULeaf2",
+      "port2": "ULeaf2-eth11",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine11-ULeaf3": {
+      "node1": "Spine11",
+      "port1": "Spine11-eth3",
+      "node2": "ULeaf3",
+      "port2": "ULeaf3-eth11",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine11-ULeaf4": {
+      "node1": "Spine11",
+      "port1": "Spine11-eth4",
+      "node2": "ULeaf4",
+      "port2": "ULeaf4-eth11",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine11-ULeaf5": {
+      "node1": "Spine11",
+      "port1": "Spine11-eth5",
+      "node2": "ULeaf5",
+      "port2": "ULeaf5-eth11",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine11-ULeaf6": {
+      "node1": "Spine11",
+      "port1": "Spine11-eth6",
+      "node2": "ULeaf6",
+      "port2": "ULeaf6-eth11",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine11-ULeaf7": {
+      "node1": "Spine11",
+      "port1": "Spine11-eth7",
+      "node2": "ULeaf7",
+      "port2": "ULeaf7-eth11",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine11-ULeaf8": {
+      "node1": "Spine11",
+      "port1": "Spine11-eth8",
+      "node2": "ULeaf8",
+      "port2": "ULeaf8-eth11",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine11-ULeaf9": {
+      "node1": "Spine11",
+      "port1": "Spine11-eth9",
+      "node2": "ULeaf9",
+      "port2": "ULeaf9-eth11",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine11-ULeaf10": {
+      "node1": "Spine11",
+      "port1": "Spine11-eth10",
+      "node2": "ULeaf10",
+      "port2": "ULeaf10-eth11",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine11-ULeaf11": {
+      "node1": "Spine11",
+      "port1": "Spine11-eth11",
+      "node2": "ULeaf11",
+      "port2": "ULeaf11-eth11",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine11-ULeaf12": {
+      "node1": "Spine11",
+      "port1": "Spine11-eth12",
+      "node2": "ULeaf12",
+      "port2": "ULeaf12-eth11",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine11-ULeaf13": {
+      "node1": "Spine11",
+      "port1": "Spine11-eth13",
+      "node2": "ULeaf13",
+      "port2": "ULeaf13-eth11",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine11-ULeaf14": {
+      "node1": "Spine11",
+      "port1": "Spine11-eth14",
+      "node2": "ULeaf14",
+      "port2": "ULeaf14-eth11",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine11-ULeaf15": {
+      "node1": "Spine11",
+      "port1": "Spine11-eth15",
+      "node2": "ULeaf15",
+      "port2": "ULeaf15-eth11",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine11-ULeaf16": {
+      "node1": "Spine11",
+      "port1": "Spine11-eth16",
+      "node2": "ULeaf16",
+      "port2": "ULeaf16-eth11",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine11-ULeaf17": {
+      "node1": "Spine11",
+      "port1": "Spine11-eth17",
+      "node2": "ULeaf17",
+      "port2": "ULeaf17-eth11",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine11-ULeaf18": {
+      "node1": "Spine11",
+      "port1": "Spine11-eth18",
+      "node2": "ULeaf18",
+      "port2": "ULeaf18-eth11",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine12-ULeaf1": {
+      "node1": "Spine12",
+      "port1": "Spine12-eth1",
+      "node2": "ULeaf1",
+      "port2": "ULeaf1-eth12",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine12-ULeaf2": {
+      "node1": "Spine12",
+      "port1": "Spine12-eth2",
+      "node2": "ULeaf2",
+      "port2": "ULeaf2-eth12",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine12-ULeaf3": {
+      "node1": "Spine12",
+      "port1": "Spine12-eth3",
+      "node2": "ULeaf3",
+      "port2": "ULeaf3-eth12",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine12-ULeaf4": {
+      "node1": "Spine12",
+      "port1": "Spine12-eth4",
+      "node2": "ULeaf4",
+      "port2": "ULeaf4-eth12",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine12-ULeaf5": {
+      "node1": "Spine12",
+      "port1": "Spine12-eth5",
+      "node2": "ULeaf5",
+      "port2": "ULeaf5-eth12",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine12-ULeaf6": {
+      "node1": "Spine12",
+      "port1": "Spine12-eth6",
+      "node2": "ULeaf6",
+      "port2": "ULeaf6-eth12",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine12-ULeaf7": {
+      "node1": "Spine12",
+      "port1": "Spine12-eth7",
+      "node2": "ULeaf7",
+      "port2": "ULeaf7-eth12",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine12-ULeaf8": {
+      "node1": "Spine12",
+      "port1": "Spine12-eth8",
+      "node2": "ULeaf8",
+      "port2": "ULeaf8-eth12",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine12-ULeaf9": {
+      "node1": "Spine12",
+      "port1": "Spine12-eth9",
+      "node2": "ULeaf9",
+      "port2": "ULeaf9-eth12",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine12-ULeaf10": {
+      "node1": "Spine12",
+      "port1": "Spine12-eth10",
+      "node2": "ULeaf10",
+      "port2": "ULeaf10-eth12",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine12-ULeaf11": {
+      "node1": "Spine12",
+      "port1": "Spine12-eth11",
+      "node2": "ULeaf11",
+      "port2": "ULeaf11-eth12",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine12-ULeaf12": {
+      "node1": "Spine12",
+      "port1": "Spine12-eth12",
+      "node2": "ULeaf12",
+      "port2": "ULeaf12-eth12",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine12-ULeaf13": {
+      "node1": "Spine12",
+      "port1": "Spine12-eth13",
+      "node2": "ULeaf13",
+      "port2": "ULeaf13-eth12",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine12-ULeaf14": {
+      "node1": "Spine12",
+      "port1": "Spine12-eth14",
+      "node2": "ULeaf14",
+      "port2": "ULeaf14-eth12",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine12-ULeaf15": {
+      "node1": "Spine12",
+      "port1": "Spine12-eth15",
+      "node2": "ULeaf15",
+      "port2": "ULeaf15-eth12",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine12-ULeaf16": {
+      "node1": "Spine12",
+      "port1": "Spine12-eth16",
+      "node2": "ULeaf16",
+      "port2": "ULeaf16-eth12",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine12-ULeaf17": {
+      "node1": "Spine12",
+      "port1": "Spine12-eth17",
+      "node2": "ULeaf17",
+      "port2": "ULeaf17-eth12",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine12-ULeaf18": {
+      "node1": "Spine12",
+      "port1": "Spine12-eth18",
+      "node2": "ULeaf18",
+      "port2": "ULeaf18-eth12",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine13-ULeaf1": {
+      "node1": "Spine13",
+      "port1": "Spine13-eth1",
+      "node2": "ULeaf1",
+      "port2": "ULeaf1-eth13",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine13-ULeaf2": {
+      "node1": "Spine13",
+      "port1": "Spine13-eth2",
+      "node2": "ULeaf2",
+      "port2": "ULeaf2-eth13",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine13-ULeaf3": {
+      "node1": "Spine13",
+      "port1": "Spine13-eth3",
+      "node2": "ULeaf3",
+      "port2": "ULeaf3-eth13",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine13-ULeaf4": {
+      "node1": "Spine13",
+      "port1": "Spine13-eth4",
+      "node2": "ULeaf4",
+      "port2": "ULeaf4-eth13",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine13-ULeaf5": {
+      "node1": "Spine13",
+      "port1": "Spine13-eth5",
+      "node2": "ULeaf5",
+      "port2": "ULeaf5-eth13",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine13-ULeaf6": {
+      "node1": "Spine13",
+      "port1": "Spine13-eth6",
+      "node2": "ULeaf6",
+      "port2": "ULeaf6-eth13",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine13-ULeaf7": {
+      "node1": "Spine13",
+      "port1": "Spine13-eth7",
+      "node2": "ULeaf7",
+      "port2": "ULeaf7-eth13",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine13-ULeaf8": {
+      "node1": "Spine13",
+      "port1": "Spine13-eth8",
+      "node2": "ULeaf8",
+      "port2": "ULeaf8-eth13",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine13-ULeaf9": {
+      "node1": "Spine13",
+      "port1": "Spine13-eth9",
+      "node2": "ULeaf9",
+      "port2": "ULeaf9-eth13",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine13-ULeaf10": {
+      "node1": "Spine13",
+      "port1": "Spine13-eth10",
+      "node2": "ULeaf10",
+      "port2": "ULeaf10-eth13",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine13-ULeaf11": {
+      "node1": "Spine13",
+      "port1": "Spine13-eth11",
+      "node2": "ULeaf11",
+      "port2": "ULeaf11-eth13",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine13-ULeaf12": {
+      "node1": "Spine13",
+      "port1": "Spine13-eth12",
+      "node2": "ULeaf12",
+      "port2": "ULeaf12-eth13",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine13-ULeaf13": {
+      "node1": "Spine13",
+      "port1": "Spine13-eth13",
+      "node2": "ULeaf13",
+      "port2": "ULeaf13-eth13",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine13-ULeaf14": {
+      "node1": "Spine13",
+      "port1": "Spine13-eth14",
+      "node2": "ULeaf14",
+      "port2": "ULeaf14-eth13",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine13-ULeaf15": {
+      "node1": "Spine13",
+      "port1": "Spine13-eth15",
+      "node2": "ULeaf15",
+      "port2": "ULeaf15-eth13",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine13-ULeaf16": {
+      "node1": "Spine13",
+      "port1": "Spine13-eth16",
+      "node2": "ULeaf16",
+      "port2": "ULeaf16-eth13",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine13-ULeaf17": {
+      "node1": "Spine13",
+      "port1": "Spine13-eth17",
+      "node2": "ULeaf17",
+      "port2": "ULeaf17-eth13",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine13-ULeaf18": {
+      "node1": "Spine13",
+      "port1": "Spine13-eth18",
+      "node2": "ULeaf18",
+      "port2": "ULeaf18-eth13",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine14-ULeaf1": {
+      "node1": "Spine14",
+      "port1": "Spine14-eth1",
+      "node2": "ULeaf1",
+      "port2": "ULeaf1-eth14",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine14-ULeaf2": {
+      "node1": "Spine14",
+      "port1": "Spine14-eth2",
+      "node2": "ULeaf2",
+      "port2": "ULeaf2-eth14",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine14-ULeaf3": {
+      "node1": "Spine14",
+      "port1": "Spine14-eth3",
+      "node2": "ULeaf3",
+      "port2": "ULeaf3-eth14",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine14-ULeaf4": {
+      "node1": "Spine14",
+      "port1": "Spine14-eth4",
+      "node2": "ULeaf4",
+      "port2": "ULeaf4-eth14",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine14-ULeaf5": {
+      "node1": "Spine14",
+      "port1": "Spine14-eth5",
+      "node2": "ULeaf5",
+      "port2": "ULeaf5-eth14",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine14-ULeaf6": {
+      "node1": "Spine14",
+      "port1": "Spine14-eth6",
+      "node2": "ULeaf6",
+      "port2": "ULeaf6-eth14",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine14-ULeaf7": {
+      "node1": "Spine14",
+      "port1": "Spine14-eth7",
+      "node2": "ULeaf7",
+      "port2": "ULeaf7-eth14",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine14-ULeaf8": {
+      "node1": "Spine14",
+      "port1": "Spine14-eth8",
+      "node2": "ULeaf8",
+      "port2": "ULeaf8-eth14",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine14-ULeaf9": {
+      "node1": "Spine14",
+      "port1": "Spine14-eth9",
+      "node2": "ULeaf9",
+      "port2": "ULeaf9-eth14",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine14-ULeaf10": {
+      "node1": "Spine14",
+      "port1": "Spine14-eth10",
+      "node2": "ULeaf10",
+      "port2": "ULeaf10-eth14",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine14-ULeaf11": {
+      "node1": "Spine14",
+      "port1": "Spine14-eth11",
+      "node2": "ULeaf11",
+      "port2": "ULeaf11-eth14",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine14-ULeaf12": {
+      "node1": "Spine14",
+      "port1": "Spine14-eth12",
+      "node2": "ULeaf12",
+      "port2": "ULeaf12-eth14",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine14-ULeaf13": {
+      "node1": "Spine14",
+      "port1": "Spine14-eth13",
+      "node2": "ULeaf13",
+      "port2": "ULeaf13-eth14",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine14-ULeaf14": {
+      "node1": "Spine14",
+      "port1": "Spine14-eth14",
+      "node2": "ULeaf14",
+      "port2": "ULeaf14-eth14",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine14-ULeaf15": {
+      "node1": "Spine14",
+      "port1": "Spine14-eth15",
+      "node2": "ULeaf15",
+      "port2": "ULeaf15-eth14",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine14-ULeaf16": {
+      "node1": "Spine14",
+      "port1": "Spine14-eth16",
+      "node2": "ULeaf16",
+      "port2": "ULeaf16-eth14",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine14-ULeaf17": {
+      "node1": "Spine14",
+      "port1": "Spine14-eth17",
+      "node2": "ULeaf17",
+      "port2": "ULeaf17-eth14",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine14-ULeaf18": {
+      "node1": "Spine14",
+      "port1": "Spine14-eth18",
+      "node2": "ULeaf18",
+      "port2": "ULeaf18-eth14",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine15-ULeaf1": {
+      "node1": "Spine15",
+      "port1": "Spine15-eth1",
+      "node2": "ULeaf1",
+      "port2": "ULeaf1-eth15",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine15-ULeaf2": {
+      "node1": "Spine15",
+      "port1": "Spine15-eth2",
+      "node2": "ULeaf2",
+      "port2": "ULeaf2-eth15",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine15-ULeaf3": {
+      "node1": "Spine15",
+      "port1": "Spine15-eth3",
+      "node2": "ULeaf3",
+      "port2": "ULeaf3-eth15",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine15-ULeaf4": {
+      "node1": "Spine15",
+      "port1": "Spine15-eth4",
+      "node2": "ULeaf4",
+      "port2": "ULeaf4-eth15",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine15-ULeaf5": {
+      "node1": "Spine15",
+      "port1": "Spine15-eth5",
+      "node2": "ULeaf5",
+      "port2": "ULeaf5-eth15",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine15-ULeaf6": {
+      "node1": "Spine15",
+      "port1": "Spine15-eth6",
+      "node2": "ULeaf6",
+      "port2": "ULeaf6-eth15",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine15-ULeaf7": {
+      "node1": "Spine15",
+      "port1": "Spine15-eth7",
+      "node2": "ULeaf7",
+      "port2": "ULeaf7-eth15",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine15-ULeaf8": {
+      "node1": "Spine15",
+      "port1": "Spine15-eth8",
+      "node2": "ULeaf8",
+      "port2": "ULeaf8-eth15",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine15-ULeaf9": {
+      "node1": "Spine15",
+      "port1": "Spine15-eth9",
+      "node2": "ULeaf9",
+      "port2": "ULeaf9-eth15",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine15-ULeaf10": {
+      "node1": "Spine15",
+      "port1": "Spine15-eth10",
+      "node2": "ULeaf10",
+      "port2": "ULeaf10-eth15",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine15-ULeaf11": {
+      "node1": "Spine15",
+      "port1": "Spine15-eth11",
+      "node2": "ULeaf11",
+      "port2": "ULeaf11-eth15",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine15-ULeaf12": {
+      "node1": "Spine15",
+      "port1": "Spine15-eth12",
+      "node2": "ULeaf12",
+      "port2": "ULeaf12-eth15",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine15-ULeaf13": {
+      "node1": "Spine15",
+      "port1": "Spine15-eth13",
+      "node2": "ULeaf13",
+      "port2": "ULeaf13-eth15",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine15-ULeaf14": {
+      "node1": "Spine15",
+      "port1": "Spine15-eth14",
+      "node2": "ULeaf14",
+      "port2": "ULeaf14-eth15",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine15-ULeaf15": {
+      "node1": "Spine15",
+      "port1": "Spine15-eth15",
+      "node2": "ULeaf15",
+      "port2": "ULeaf15-eth15",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine15-ULeaf16": {
+      "node1": "Spine15",
+      "port1": "Spine15-eth16",
+      "node2": "ULeaf16",
+      "port2": "ULeaf16-eth15",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine15-ULeaf17": {
+      "node1": "Spine15",
+      "port1": "Spine15-eth17",
+      "node2": "ULeaf17",
+      "port2": "ULeaf17-eth15",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine15-ULeaf18": {
+      "node1": "Spine15",
+      "port1": "Spine15-eth18",
+      "node2": "ULeaf18",
+      "port2": "ULeaf18-eth15",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine16-ULeaf1": {
+      "node1": "Spine16",
+      "port1": "Spine16-eth1",
+      "node2": "ULeaf1",
+      "port2": "ULeaf1-eth16",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine16-ULeaf2": {
+      "node1": "Spine16",
+      "port1": "Spine16-eth2",
+      "node2": "ULeaf2",
+      "port2": "ULeaf2-eth16",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine16-ULeaf3": {
+      "node1": "Spine16",
+      "port1": "Spine16-eth3",
+      "node2": "ULeaf3",
+      "port2": "ULeaf3-eth16",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine16-ULeaf4": {
+      "node1": "Spine16",
+      "port1": "Spine16-eth4",
+      "node2": "ULeaf4",
+      "port2": "ULeaf4-eth16",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine16-ULeaf5": {
+      "node1": "Spine16",
+      "port1": "Spine16-eth5",
+      "node2": "ULeaf5",
+      "port2": "ULeaf5-eth16",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine16-ULeaf6": {
+      "node1": "Spine16",
+      "port1": "Spine16-eth6",
+      "node2": "ULeaf6",
+      "port2": "ULeaf6-eth16",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine16-ULeaf7": {
+      "node1": "Spine16",
+      "port1": "Spine16-eth7",
+      "node2": "ULeaf7",
+      "port2": "ULeaf7-eth16",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine16-ULeaf8": {
+      "node1": "Spine16",
+      "port1": "Spine16-eth8",
+      "node2": "ULeaf8",
+      "port2": "ULeaf8-eth16",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine16-ULeaf9": {
+      "node1": "Spine16",
+      "port1": "Spine16-eth9",
+      "node2": "ULeaf9",
+      "port2": "ULeaf9-eth16",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine16-ULeaf10": {
+      "node1": "Spine16",
+      "port1": "Spine16-eth10",
+      "node2": "ULeaf10",
+      "port2": "ULeaf10-eth16",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine16-ULeaf11": {
+      "node1": "Spine16",
+      "port1": "Spine16-eth11",
+      "node2": "ULeaf11",
+      "port2": "ULeaf11-eth16",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine16-ULeaf12": {
+      "node1": "Spine16",
+      "port1": "Spine16-eth12",
+      "node2": "ULeaf12",
+      "port2": "ULeaf12-eth16",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine16-ULeaf13": {
+      "node1": "Spine16",
+      "port1": "Spine16-eth13",
+      "node2": "ULeaf13",
+      "port2": "ULeaf13-eth16",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine16-ULeaf14": {
+      "node1": "Spine16",
+      "port1": "Spine16-eth14",
+      "node2": "ULeaf14",
+      "port2": "ULeaf14-eth16",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine16-ULeaf15": {
+      "node1": "Spine16",
+      "port1": "Spine16-eth15",
+      "node2": "ULeaf15",
+      "port2": "ULeaf15-eth16",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine16-ULeaf16": {
+      "node1": "Spine16",
+      "port1": "Spine16-eth16",
+      "node2": "ULeaf16",
+      "port2": "ULeaf16-eth16",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine16-ULeaf17": {
+      "node1": "Spine16",
+      "port1": "Spine16-eth17",
+      "node2": "ULeaf17",
+      "port2": "ULeaf17-eth16",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine16-ULeaf18": {
+      "node1": "Spine16",
+      "port1": "Spine16-eth18",
+      "node2": "ULeaf18",
+      "port2": "ULeaf18-eth16",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine17-ULeaf1": {
+      "node1": "Spine17",
+      "port1": "Spine17-eth1",
+      "node2": "ULeaf1",
+      "port2": "ULeaf1-eth17",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine17-ULeaf2": {
+      "node1": "Spine17",
+      "port1": "Spine17-eth2",
+      "node2": "ULeaf2",
+      "port2": "ULeaf2-eth17",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine17-ULeaf3": {
+      "node1": "Spine17",
+      "port1": "Spine17-eth3",
+      "node2": "ULeaf3",
+      "port2": "ULeaf3-eth17",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine17-ULeaf4": {
+      "node1": "Spine17",
+      "port1": "Spine17-eth4",
+      "node2": "ULeaf4",
+      "port2": "ULeaf4-eth17",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine17-ULeaf5": {
+      "node1": "Spine17",
+      "port1": "Spine17-eth5",
+      "node2": "ULeaf5",
+      "port2": "ULeaf5-eth17",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine17-ULeaf6": {
+      "node1": "Spine17",
+      "port1": "Spine17-eth6",
+      "node2": "ULeaf6",
+      "port2": "ULeaf6-eth17",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine17-ULeaf7": {
+      "node1": "Spine17",
+      "port1": "Spine17-eth7",
+      "node2": "ULeaf7",
+      "port2": "ULeaf7-eth17",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine17-ULeaf8": {
+      "node1": "Spine17",
+      "port1": "Spine17-eth8",
+      "node2": "ULeaf8",
+      "port2": "ULeaf8-eth17",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine17-ULeaf9": {
+      "node1": "Spine17",
+      "port1": "Spine17-eth9",
+      "node2": "ULeaf9",
+      "port2": "ULeaf9-eth17",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine17-ULeaf10": {
+      "node1": "Spine17",
+      "port1": "Spine17-eth10",
+      "node2": "ULeaf10",
+      "port2": "ULeaf10-eth17",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine17-ULeaf11": {
+      "node1": "Spine17",
+      "port1": "Spine17-eth11",
+      "node2": "ULeaf11",
+      "port2": "ULeaf11-eth17",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine17-ULeaf12": {
+      "node1": "Spine17",
+      "port1": "Spine17-eth12",
+      "node2": "ULeaf12",
+      "port2": "ULeaf12-eth17",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine17-ULeaf13": {
+      "node1": "Spine17",
+      "port1": "Spine17-eth13",
+      "node2": "ULeaf13",
+      "port2": "ULeaf13-eth17",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine17-ULeaf14": {
+      "node1": "Spine17",
+      "port1": "Spine17-eth14",
+      "node2": "ULeaf14",
+      "port2": "ULeaf14-eth17",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine17-ULeaf15": {
+      "node1": "Spine17",
+      "port1": "Spine17-eth15",
+      "node2": "ULeaf15",
+      "port2": "ULeaf15-eth17",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine17-ULeaf16": {
+      "node1": "Spine17",
+      "port1": "Spine17-eth16",
+      "node2": "ULeaf16",
+      "port2": "ULeaf16-eth17",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine17-ULeaf17": {
+      "node1": "Spine17",
+      "port1": "Spine17-eth17",
+      "node2": "ULeaf17",
+      "port2": "ULeaf17-eth17",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine17-ULeaf18": {
+      "node1": "Spine17",
+      "port1": "Spine17-eth18",
+      "node2": "ULeaf18",
+      "port2": "ULeaf18-eth17",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine18-ULeaf1": {
+      "node1": "Spine18",
+      "port1": "Spine18-eth1",
+      "node2": "ULeaf1",
+      "port2": "ULeaf1-eth18",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine18-ULeaf2": {
+      "node1": "Spine18",
+      "port1": "Spine18-eth2",
+      "node2": "ULeaf2",
+      "port2": "ULeaf2-eth18",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine18-ULeaf3": {
+      "node1": "Spine18",
+      "port1": "Spine18-eth3",
+      "node2": "ULeaf3",
+      "port2": "ULeaf3-eth18",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine18-ULeaf4": {
+      "node1": "Spine18",
+      "port1": "Spine18-eth4",
+      "node2": "ULeaf4",
+      "port2": "ULeaf4-eth18",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine18-ULeaf5": {
+      "node1": "Spine18",
+      "port1": "Spine18-eth5",
+      "node2": "ULeaf5",
+      "port2": "ULeaf5-eth18",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine18-ULeaf6": {
+      "node1": "Spine18",
+      "port1": "Spine18-eth6",
+      "node2": "ULeaf6",
+      "port2": "ULeaf6-eth18",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine18-ULeaf7": {
+      "node1": "Spine18",
+      "port1": "Spine18-eth7",
+      "node2": "ULeaf7",
+      "port2": "ULeaf7-eth18",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine18-ULeaf8": {
+      "node1": "Spine18",
+      "port1": "Spine18-eth8",
+      "node2": "ULeaf8",
+      "port2": "ULeaf8-eth18",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine18-ULeaf9": {
+      "node1": "Spine18",
+      "port1": "Spine18-eth9",
+      "node2": "ULeaf9",
+      "port2": "ULeaf9-eth18",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine18-ULeaf10": {
+      "node1": "Spine18",
+      "port1": "Spine18-eth10",
+      "node2": "ULeaf10",
+      "port2": "ULeaf10-eth18",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine18-ULeaf11": {
+      "node1": "Spine18",
+      "port1": "Spine18-eth11",
+      "node2": "ULeaf11",
+      "port2": "ULeaf11-eth18",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine18-ULeaf12": {
+      "node1": "Spine18",
+      "port1": "Spine18-eth12",
+      "node2": "ULeaf12",
+      "port2": "ULeaf12-eth18",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine18-ULeaf13": {
+      "node1": "Spine18",
+      "port1": "Spine18-eth13",
+      "node2": "ULeaf13",
+      "port2": "ULeaf13-eth18",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine18-ULeaf14": {
+      "node1": "Spine18",
+      "port1": "Spine18-eth14",
+      "node2": "ULeaf14",
+      "port2": "ULeaf14-eth18",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine18-ULeaf15": {
+      "node1": "Spine18",
+      "port1": "Spine18-eth15",
+      "node2": "ULeaf15",
+      "port2": "ULeaf15-eth18",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine18-ULeaf16": {
+      "node1": "Spine18",
+      "port1": "Spine18-eth16",
+      "node2": "ULeaf16",
+      "port2": "ULeaf16-eth18",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine18-ULeaf17": {
+      "node1": "Spine18",
+      "port1": "Spine18-eth17",
+      "node2": "ULeaf17",
+      "port2": "ULeaf17-eth18",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine18-ULeaf18": {
+      "node1": "Spine18",
+      "port1": "Spine18-eth18",
+      "node2": "ULeaf18",
+      "port2": "ULeaf18-eth18",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine19-ULeaf1": {
+      "node1": "Spine19",
+      "port1": "Spine19-eth1",
+      "node2": "ULeaf1",
+      "port2": "ULeaf1-eth19",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine19-ULeaf2": {
+      "node1": "Spine19",
+      "port1": "Spine19-eth2",
+      "node2": "ULeaf2",
+      "port2": "ULeaf2-eth19",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine19-ULeaf3": {
+      "node1": "Spine19",
+      "port1": "Spine19-eth3",
+      "node2": "ULeaf3",
+      "port2": "ULeaf3-eth19",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine19-ULeaf4": {
+      "node1": "Spine19",
+      "port1": "Spine19-eth4",
+      "node2": "ULeaf4",
+      "port2": "ULeaf4-eth19",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine19-ULeaf5": {
+      "node1": "Spine19",
+      "port1": "Spine19-eth5",
+      "node2": "ULeaf5",
+      "port2": "ULeaf5-eth19",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine19-ULeaf6": {
+      "node1": "Spine19",
+      "port1": "Spine19-eth6",
+      "node2": "ULeaf6",
+      "port2": "ULeaf6-eth19",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine19-ULeaf7": {
+      "node1": "Spine19",
+      "port1": "Spine19-eth7",
+      "node2": "ULeaf7",
+      "port2": "ULeaf7-eth19",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine19-ULeaf8": {
+      "node1": "Spine19",
+      "port1": "Spine19-eth8",
+      "node2": "ULeaf8",
+      "port2": "ULeaf8-eth19",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine19-ULeaf9": {
+      "node1": "Spine19",
+      "port1": "Spine19-eth9",
+      "node2": "ULeaf9",
+      "port2": "ULeaf9-eth19",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine19-ULeaf10": {
+      "node1": "Spine19",
+      "port1": "Spine19-eth10",
+      "node2": "ULeaf10",
+      "port2": "ULeaf10-eth19",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine19-ULeaf11": {
+      "node1": "Spine19",
+      "port1": "Spine19-eth11",
+      "node2": "ULeaf11",
+      "port2": "ULeaf11-eth19",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine19-ULeaf12": {
+      "node1": "Spine19",
+      "port1": "Spine19-eth12",
+      "node2": "ULeaf12",
+      "port2": "ULeaf12-eth19",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine19-ULeaf13": {
+      "node1": "Spine19",
+      "port1": "Spine19-eth13",
+      "node2": "ULeaf13",
+      "port2": "ULeaf13-eth19",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine19-ULeaf14": {
+      "node1": "Spine19",
+      "port1": "Spine19-eth14",
+      "node2": "ULeaf14",
+      "port2": "ULeaf14-eth19",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine19-ULeaf15": {
+      "node1": "Spine19",
+      "port1": "Spine19-eth15",
+      "node2": "ULeaf15",
+      "port2": "ULeaf15-eth19",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine19-ULeaf16": {
+      "node1": "Spine19",
+      "port1": "Spine19-eth16",
+      "node2": "ULeaf16",
+      "port2": "ULeaf16-eth19",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine19-ULeaf17": {
+      "node1": "Spine19",
+      "port1": "Spine19-eth17",
+      "node2": "ULeaf17",
+      "port2": "ULeaf17-eth19",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine19-ULeaf18": {
+      "node1": "Spine19",
+      "port1": "Spine19-eth18",
+      "node2": "ULeaf18",
+      "port2": "ULeaf18-eth19",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine20-ULeaf1": {
+      "node1": "Spine20",
+      "port1": "Spine20-eth1",
+      "node2": "ULeaf1",
+      "port2": "ULeaf1-eth20",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine20-ULeaf2": {
+      "node1": "Spine20",
+      "port1": "Spine20-eth2",
+      "node2": "ULeaf2",
+      "port2": "ULeaf2-eth20",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine20-ULeaf3": {
+      "node1": "Spine20",
+      "port1": "Spine20-eth3",
+      "node2": "ULeaf3",
+      "port2": "ULeaf3-eth20",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine20-ULeaf4": {
+      "node1": "Spine20",
+      "port1": "Spine20-eth4",
+      "node2": "ULeaf4",
+      "port2": "ULeaf4-eth20",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine20-ULeaf5": {
+      "node1": "Spine20",
+      "port1": "Spine20-eth5",
+      "node2": "ULeaf5",
+      "port2": "ULeaf5-eth20",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine20-ULeaf6": {
+      "node1": "Spine20",
+      "port1": "Spine20-eth6",
+      "node2": "ULeaf6",
+      "port2": "ULeaf6-eth20",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine20-ULeaf7": {
+      "node1": "Spine20",
+      "port1": "Spine20-eth7",
+      "node2": "ULeaf7",
+      "port2": "ULeaf7-eth20",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine20-ULeaf8": {
+      "node1": "Spine20",
+      "port1": "Spine20-eth8",
+      "node2": "ULeaf8",
+      "port2": "ULeaf8-eth20",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine20-ULeaf9": {
+      "node1": "Spine20",
+      "port1": "Spine20-eth9",
+      "node2": "ULeaf9",
+      "port2": "ULeaf9-eth20",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine20-ULeaf10": {
+      "node1": "Spine20",
+      "port1": "Spine20-eth10",
+      "node2": "ULeaf10",
+      "port2": "ULeaf10-eth20",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine20-ULeaf11": {
+      "node1": "Spine20",
+      "port1": "Spine20-eth11",
+      "node2": "ULeaf11",
+      "port2": "ULeaf11-eth20",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine20-ULeaf12": {
+      "node1": "Spine20",
+      "port1": "Spine20-eth12",
+      "node2": "ULeaf12",
+      "port2": "ULeaf12-eth20",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine20-ULeaf13": {
+      "node1": "Spine20",
+      "port1": "Spine20-eth13",
+      "node2": "ULeaf13",
+      "port2": "ULeaf13-eth20",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine20-ULeaf14": {
+      "node1": "Spine20",
+      "port1": "Spine20-eth14",
+      "node2": "ULeaf14",
+      "port2": "ULeaf14-eth20",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine20-ULeaf15": {
+      "node1": "Spine20",
+      "port1": "Spine20-eth15",
+      "node2": "ULeaf15",
+      "port2": "ULeaf15-eth20",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine20-ULeaf16": {
+      "node1": "Spine20",
+      "port1": "Spine20-eth16",
+      "node2": "ULeaf16",
+      "port2": "ULeaf16-eth20",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine20-ULeaf17": {
+      "node1": "Spine20",
+      "port1": "Spine20-eth17",
+      "node2": "ULeaf17",
+      "port2": "ULeaf17-eth20",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine20-ULeaf18": {
+      "node1": "Spine20",
+      "port1": "Spine20-eth18",
+      "node2": "ULeaf18",
+      "port2": "ULeaf18-eth20",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf1-LLeaf1-link1": {
+      "node1": "ULeaf1",
+      "port1": "ULeaf1-eth21",
+      "node2": "LLeaf1",
+      "port2": "LLeaf1-eth1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf2-LLeaf2-link1": {
+      "node1": "ULeaf2",
+      "port1": "ULeaf2-eth21",
+      "node2": "LLeaf2",
+      "port2": "LLeaf2-eth1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf3-LLeaf3-link1": {
+      "node1": "ULeaf3",
+      "port1": "ULeaf3-eth21",
+      "node2": "LLeaf3",
+      "port2": "LLeaf3-eth1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf4-LLeaf4-link1": {
+      "node1": "ULeaf4",
+      "port1": "ULeaf4-eth21",
+      "node2": "LLeaf4",
+      "port2": "LLeaf4-eth1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf5-LLeaf5-link1": {
+      "node1": "ULeaf5",
+      "port1": "ULeaf5-eth21",
+      "node2": "LLeaf5",
+      "port2": "LLeaf5-eth1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf6-LLeaf6-link1": {
+      "node1": "ULeaf6",
+      "port1": "ULeaf6-eth21",
+      "node2": "LLeaf6",
+      "port2": "LLeaf6-eth1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf7-LLeaf7-link1": {
+      "node1": "ULeaf7",
+      "port1": "ULeaf7-eth21",
+      "node2": "LLeaf7",
+      "port2": "LLeaf7-eth1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf8-LLeaf8-link1": {
+      "node1": "ULeaf8",
+      "port1": "ULeaf8-eth21",
+      "node2": "LLeaf8",
+      "port2": "LLeaf8-eth1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf9-LLeaf9-link1": {
+      "node1": "ULeaf9",
+      "port1": "ULeaf9-eth21",
+      "node2": "LLeaf9",
+      "port2": "LLeaf9-eth1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf10-LLeaf10-link1": {
+      "node1": "ULeaf10",
+      "port1": "ULeaf10-eth21",
+      "node2": "LLeaf10",
+      "port2": "LLeaf10-eth1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf11-LLeaf11-link1": {
+      "node1": "ULeaf11",
+      "port1": "ULeaf11-eth21",
+      "node2": "LLeaf11",
+      "port2": "LLeaf11-eth1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf12-LLeaf12-link1": {
+      "node1": "ULeaf12",
+      "port1": "ULeaf12-eth21",
+      "node2": "LLeaf12",
+      "port2": "LLeaf12-eth1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf13-LLeaf13-link1": {
+      "node1": "ULeaf13",
+      "port1": "ULeaf13-eth21",
+      "node2": "LLeaf13",
+      "port2": "LLeaf13-eth1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf14-LLeaf14-link1": {
+      "node1": "ULeaf14",
+      "port1": "ULeaf14-eth21",
+      "node2": "LLeaf14",
+      "port2": "LLeaf14-eth1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf15-LLeaf15-link1": {
+      "node1": "ULeaf15",
+      "port1": "ULeaf15-eth21",
+      "node2": "LLeaf15",
+      "port2": "LLeaf15-eth1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf16-LLeaf16-link1": {
+      "node1": "ULeaf16",
+      "port1": "ULeaf16-eth21",
+      "node2": "LLeaf16",
+      "port2": "LLeaf16-eth1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf17-LLeaf17-link1": {
+      "node1": "ULeaf17",
+      "port1": "ULeaf17-eth21",
+      "node2": "LLeaf17",
+      "port2": "LLeaf17-eth1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf18-LLeaf18-link1": {
+      "node1": "ULeaf18",
+      "port1": "ULeaf18-eth21",
+      "node2": "LLeaf18",
+      "port2": "LLeaf18-eth1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    }
+  },
+  "ports": {
+    "Spine1-port1": {
+      "connected_to": "ULeaf1-port1",
+      "dst-dpid": "ULeaf1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf1-port1": {
+      "connected_to": "Spine1-port1",
+      "dst-dpid": "Spine1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine1-port2": {
+      "connected_to": "ULeaf2-port1",
+      "dst-dpid": "ULeaf2",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf2-port1": {
+      "connected_to": "Spine1-port2",
+      "dst-dpid": "Spine1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine1-port3": {
+      "connected_to": "ULeaf3-port1",
+      "dst-dpid": "ULeaf3",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf3-port1": {
+      "connected_to": "Spine1-port3",
+      "dst-dpid": "Spine1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine1-port4": {
+      "connected_to": "ULeaf4-port1",
+      "dst-dpid": "ULeaf4",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf4-port1": {
+      "connected_to": "Spine1-port4",
+      "dst-dpid": "Spine1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine1-port5": {
+      "connected_to": "ULeaf5-port1",
+      "dst-dpid": "ULeaf5",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf5-port1": {
+      "connected_to": "Spine1-port5",
+      "dst-dpid": "Spine1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine1-port6": {
+      "connected_to": "ULeaf6-port1",
+      "dst-dpid": "ULeaf6",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf6-port1": {
+      "connected_to": "Spine1-port6",
+      "dst-dpid": "Spine1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine1-port7": {
+      "connected_to": "ULeaf7-port1",
+      "dst-dpid": "ULeaf7",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf7-port1": {
+      "connected_to": "Spine1-port7",
+      "dst-dpid": "Spine1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine1-port8": {
+      "connected_to": "ULeaf8-port1",
+      "dst-dpid": "ULeaf8",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf8-port1": {
+      "connected_to": "Spine1-port8",
+      "dst-dpid": "Spine1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine1-port9": {
+      "connected_to": "ULeaf9-port1",
+      "dst-dpid": "ULeaf9",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf9-port1": {
+      "connected_to": "Spine1-port9",
+      "dst-dpid": "Spine1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine1-port10": {
+      "connected_to": "ULeaf10-port1",
+      "dst-dpid": "ULeaf10",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf10-port1": {
+      "connected_to": "Spine1-port10",
+      "dst-dpid": "Spine1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine1-port11": {
+      "connected_to": "ULeaf11-port1",
+      "dst-dpid": "ULeaf11",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf11-port1": {
+      "connected_to": "Spine1-port11",
+      "dst-dpid": "Spine1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine1-port12": {
+      "connected_to": "ULeaf12-port1",
+      "dst-dpid": "ULeaf12",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf12-port1": {
+      "connected_to": "Spine1-port12",
+      "dst-dpid": "Spine1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine1-port13": {
+      "connected_to": "ULeaf13-port1",
+      "dst-dpid": "ULeaf13",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf13-port1": {
+      "connected_to": "Spine1-port13",
+      "dst-dpid": "Spine1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine1-port14": {
+      "connected_to": "ULeaf14-port1",
+      "dst-dpid": "ULeaf14",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf14-port1": {
+      "connected_to": "Spine1-port14",
+      "dst-dpid": "Spine1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine1-port15": {
+      "connected_to": "ULeaf15-port1",
+      "dst-dpid": "ULeaf15",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf15-port1": {
+      "connected_to": "Spine1-port15",
+      "dst-dpid": "Spine1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine1-port16": {
+      "connected_to": "ULeaf16-port1",
+      "dst-dpid": "ULeaf16",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf16-port1": {
+      "connected_to": "Spine1-port16",
+      "dst-dpid": "Spine1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine1-port17": {
+      "connected_to": "ULeaf17-port1",
+      "dst-dpid": "ULeaf17",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf17-port1": {
+      "connected_to": "Spine1-port17",
+      "dst-dpid": "Spine1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine1-port18": {
+      "connected_to": "ULeaf18-port1",
+      "dst-dpid": "ULeaf18",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf18-port1": {
+      "connected_to": "Spine1-port18",
+      "dst-dpid": "Spine1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine2-port1": {
+      "connected_to": "ULeaf1-port2",
+      "dst-dpid": "ULeaf1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf1-port2": {
+      "connected_to": "Spine2-port1",
+      "dst-dpid": "Spine2",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine2-port2": {
+      "connected_to": "ULeaf2-port2",
+      "dst-dpid": "ULeaf2",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf2-port2": {
+      "connected_to": "Spine2-port2",
+      "dst-dpid": "Spine2",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine2-port3": {
+      "connected_to": "ULeaf3-port2",
+      "dst-dpid": "ULeaf3",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf3-port2": {
+      "connected_to": "Spine2-port3",
+      "dst-dpid": "Spine2",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine2-port4": {
+      "connected_to": "ULeaf4-port2",
+      "dst-dpid": "ULeaf4",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf4-port2": {
+      "connected_to": "Spine2-port4",
+      "dst-dpid": "Spine2",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine2-port5": {
+      "connected_to": "ULeaf5-port2",
+      "dst-dpid": "ULeaf5",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf5-port2": {
+      "connected_to": "Spine2-port5",
+      "dst-dpid": "Spine2",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine2-port6": {
+      "connected_to": "ULeaf6-port2",
+      "dst-dpid": "ULeaf6",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf6-port2": {
+      "connected_to": "Spine2-port6",
+      "dst-dpid": "Spine2",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine2-port7": {
+      "connected_to": "ULeaf7-port2",
+      "dst-dpid": "ULeaf7",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf7-port2": {
+      "connected_to": "Spine2-port7",
+      "dst-dpid": "Spine2",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine2-port8": {
+      "connected_to": "ULeaf8-port2",
+      "dst-dpid": "ULeaf8",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf8-port2": {
+      "connected_to": "Spine2-port8",
+      "dst-dpid": "Spine2",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine2-port9": {
+      "connected_to": "ULeaf9-port2",
+      "dst-dpid": "ULeaf9",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf9-port2": {
+      "connected_to": "Spine2-port9",
+      "dst-dpid": "Spine2",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine2-port10": {
+      "connected_to": "ULeaf10-port2",
+      "dst-dpid": "ULeaf10",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf10-port2": {
+      "connected_to": "Spine2-port10",
+      "dst-dpid": "Spine2",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine2-port11": {
+      "connected_to": "ULeaf11-port2",
+      "dst-dpid": "ULeaf11",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf11-port2": {
+      "connected_to": "Spine2-port11",
+      "dst-dpid": "Spine2",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine2-port12": {
+      "connected_to": "ULeaf12-port2",
+      "dst-dpid": "ULeaf12",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf12-port2": {
+      "connected_to": "Spine2-port12",
+      "dst-dpid": "Spine2",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine2-port13": {
+      "connected_to": "ULeaf13-port2",
+      "dst-dpid": "ULeaf13",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf13-port2": {
+      "connected_to": "Spine2-port13",
+      "dst-dpid": "Spine2",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine2-port14": {
+      "connected_to": "ULeaf14-port2",
+      "dst-dpid": "ULeaf14",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf14-port2": {
+      "connected_to": "Spine2-port14",
+      "dst-dpid": "Spine2",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine2-port15": {
+      "connected_to": "ULeaf15-port2",
+      "dst-dpid": "ULeaf15",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf15-port2": {
+      "connected_to": "Spine2-port15",
+      "dst-dpid": "Spine2",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine2-port16": {
+      "connected_to": "ULeaf16-port2",
+      "dst-dpid": "ULeaf16",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf16-port2": {
+      "connected_to": "Spine2-port16",
+      "dst-dpid": "Spine2",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine2-port17": {
+      "connected_to": "ULeaf17-port2",
+      "dst-dpid": "ULeaf17",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf17-port2": {
+      "connected_to": "Spine2-port17",
+      "dst-dpid": "Spine2",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine2-port18": {
+      "connected_to": "ULeaf18-port2",
+      "dst-dpid": "ULeaf18",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf18-port2": {
+      "connected_to": "Spine2-port18",
+      "dst-dpid": "Spine2",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine3-port1": {
+      "connected_to": "ULeaf1-port3",
+      "dst-dpid": "ULeaf1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf1-port3": {
+      "connected_to": "Spine3-port1",
+      "dst-dpid": "Spine3",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine3-port2": {
+      "connected_to": "ULeaf2-port3",
+      "dst-dpid": "ULeaf2",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf2-port3": {
+      "connected_to": "Spine3-port2",
+      "dst-dpid": "Spine3",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine3-port3": {
+      "connected_to": "ULeaf3-port3",
+      "dst-dpid": "ULeaf3",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf3-port3": {
+      "connected_to": "Spine3-port3",
+      "dst-dpid": "Spine3",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine3-port4": {
+      "connected_to": "ULeaf4-port3",
+      "dst-dpid": "ULeaf4",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf4-port3": {
+      "connected_to": "Spine3-port4",
+      "dst-dpid": "Spine3",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine3-port5": {
+      "connected_to": "ULeaf5-port3",
+      "dst-dpid": "ULeaf5",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf5-port3": {
+      "connected_to": "Spine3-port5",
+      "dst-dpid": "Spine3",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine3-port6": {
+      "connected_to": "ULeaf6-port3",
+      "dst-dpid": "ULeaf6",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf6-port3": {
+      "connected_to": "Spine3-port6",
+      "dst-dpid": "Spine3",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine3-port7": {
+      "connected_to": "ULeaf7-port3",
+      "dst-dpid": "ULeaf7",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf7-port3": {
+      "connected_to": "Spine3-port7",
+      "dst-dpid": "Spine3",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine3-port8": {
+      "connected_to": "ULeaf8-port3",
+      "dst-dpid": "ULeaf8",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf8-port3": {
+      "connected_to": "Spine3-port8",
+      "dst-dpid": "Spine3",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine3-port9": {
+      "connected_to": "ULeaf9-port3",
+      "dst-dpid": "ULeaf9",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf9-port3": {
+      "connected_to": "Spine3-port9",
+      "dst-dpid": "Spine3",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine3-port10": {
+      "connected_to": "ULeaf10-port3",
+      "dst-dpid": "ULeaf10",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf10-port3": {
+      "connected_to": "Spine3-port10",
+      "dst-dpid": "Spine3",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine3-port11": {
+      "connected_to": "ULeaf11-port3",
+      "dst-dpid": "ULeaf11",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf11-port3": {
+      "connected_to": "Spine3-port11",
+      "dst-dpid": "Spine3",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine3-port12": {
+      "connected_to": "ULeaf12-port3",
+      "dst-dpid": "ULeaf12",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf12-port3": {
+      "connected_to": "Spine3-port12",
+      "dst-dpid": "Spine3",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine3-port13": {
+      "connected_to": "ULeaf13-port3",
+      "dst-dpid": "ULeaf13",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf13-port3": {
+      "connected_to": "Spine3-port13",
+      "dst-dpid": "Spine3",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine3-port14": {
+      "connected_to": "ULeaf14-port3",
+      "dst-dpid": "ULeaf14",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf14-port3": {
+      "connected_to": "Spine3-port14",
+      "dst-dpid": "Spine3",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine3-port15": {
+      "connected_to": "ULeaf15-port3",
+      "dst-dpid": "ULeaf15",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf15-port3": {
+      "connected_to": "Spine3-port15",
+      "dst-dpid": "Spine3",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine3-port16": {
+      "connected_to": "ULeaf16-port3",
+      "dst-dpid": "ULeaf16",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf16-port3": {
+      "connected_to": "Spine3-port16",
+      "dst-dpid": "Spine3",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine3-port17": {
+      "connected_to": "ULeaf17-port3",
+      "dst-dpid": "ULeaf17",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf17-port3": {
+      "connected_to": "Spine3-port17",
+      "dst-dpid": "Spine3",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine3-port18": {
+      "connected_to": "ULeaf18-port3",
+      "dst-dpid": "ULeaf18",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf18-port3": {
+      "connected_to": "Spine3-port18",
+      "dst-dpid": "Spine3",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine4-port1": {
+      "connected_to": "ULeaf1-port4",
+      "dst-dpid": "ULeaf1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf1-port4": {
+      "connected_to": "Spine4-port1",
+      "dst-dpid": "Spine4",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine4-port2": {
+      "connected_to": "ULeaf2-port4",
+      "dst-dpid": "ULeaf2",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf2-port4": {
+      "connected_to": "Spine4-port2",
+      "dst-dpid": "Spine4",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine4-port3": {
+      "connected_to": "ULeaf3-port4",
+      "dst-dpid": "ULeaf3",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf3-port4": {
+      "connected_to": "Spine4-port3",
+      "dst-dpid": "Spine4",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine4-port4": {
+      "connected_to": "ULeaf4-port4",
+      "dst-dpid": "ULeaf4",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf4-port4": {
+      "connected_to": "Spine4-port4",
+      "dst-dpid": "Spine4",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine4-port5": {
+      "connected_to": "ULeaf5-port4",
+      "dst-dpid": "ULeaf5",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf5-port4": {
+      "connected_to": "Spine4-port5",
+      "dst-dpid": "Spine4",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine4-port6": {
+      "connected_to": "ULeaf6-port4",
+      "dst-dpid": "ULeaf6",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf6-port4": {
+      "connected_to": "Spine4-port6",
+      "dst-dpid": "Spine4",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine4-port7": {
+      "connected_to": "ULeaf7-port4",
+      "dst-dpid": "ULeaf7",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf7-port4": {
+      "connected_to": "Spine4-port7",
+      "dst-dpid": "Spine4",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine4-port8": {
+      "connected_to": "ULeaf8-port4",
+      "dst-dpid": "ULeaf8",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf8-port4": {
+      "connected_to": "Spine4-port8",
+      "dst-dpid": "Spine4",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine4-port9": {
+      "connected_to": "ULeaf9-port4",
+      "dst-dpid": "ULeaf9",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf9-port4": {
+      "connected_to": "Spine4-port9",
+      "dst-dpid": "Spine4",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine4-port10": {
+      "connected_to": "ULeaf10-port4",
+      "dst-dpid": "ULeaf10",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf10-port4": {
+      "connected_to": "Spine4-port10",
+      "dst-dpid": "Spine4",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine4-port11": {
+      "connected_to": "ULeaf11-port4",
+      "dst-dpid": "ULeaf11",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf11-port4": {
+      "connected_to": "Spine4-port11",
+      "dst-dpid": "Spine4",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine4-port12": {
+      "connected_to": "ULeaf12-port4",
+      "dst-dpid": "ULeaf12",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf12-port4": {
+      "connected_to": "Spine4-port12",
+      "dst-dpid": "Spine4",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine4-port13": {
+      "connected_to": "ULeaf13-port4",
+      "dst-dpid": "ULeaf13",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf13-port4": {
+      "connected_to": "Spine4-port13",
+      "dst-dpid": "Spine4",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine4-port14": {
+      "connected_to": "ULeaf14-port4",
+      "dst-dpid": "ULeaf14",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf14-port4": {
+      "connected_to": "Spine4-port14",
+      "dst-dpid": "Spine4",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine4-port15": {
+      "connected_to": "ULeaf15-port4",
+      "dst-dpid": "ULeaf15",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf15-port4": {
+      "connected_to": "Spine4-port15",
+      "dst-dpid": "Spine4",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine4-port16": {
+      "connected_to": "ULeaf16-port4",
+      "dst-dpid": "ULeaf16",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf16-port4": {
+      "connected_to": "Spine4-port16",
+      "dst-dpid": "Spine4",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine4-port17": {
+      "connected_to": "ULeaf17-port4",
+      "dst-dpid": "ULeaf17",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf17-port4": {
+      "connected_to": "Spine4-port17",
+      "dst-dpid": "Spine4",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine4-port18": {
+      "connected_to": "ULeaf18-port4",
+      "dst-dpid": "ULeaf18",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf18-port4": {
+      "connected_to": "Spine4-port18",
+      "dst-dpid": "Spine4",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine5-port1": {
+      "connected_to": "ULeaf1-port5",
+      "dst-dpid": "ULeaf1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf1-port5": {
+      "connected_to": "Spine5-port1",
+      "dst-dpid": "Spine5",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine5-port2": {
+      "connected_to": "ULeaf2-port5",
+      "dst-dpid": "ULeaf2",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf2-port5": {
+      "connected_to": "Spine5-port2",
+      "dst-dpid": "Spine5",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine5-port3": {
+      "connected_to": "ULeaf3-port5",
+      "dst-dpid": "ULeaf3",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf3-port5": {
+      "connected_to": "Spine5-port3",
+      "dst-dpid": "Spine5",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine5-port4": {
+      "connected_to": "ULeaf4-port5",
+      "dst-dpid": "ULeaf4",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf4-port5": {
+      "connected_to": "Spine5-port4",
+      "dst-dpid": "Spine5",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine5-port5": {
+      "connected_to": "ULeaf5-port5",
+      "dst-dpid": "ULeaf5",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf5-port5": {
+      "connected_to": "Spine5-port5",
+      "dst-dpid": "Spine5",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine5-port6": {
+      "connected_to": "ULeaf6-port5",
+      "dst-dpid": "ULeaf6",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf6-port5": {
+      "connected_to": "Spine5-port6",
+      "dst-dpid": "Spine5",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine5-port7": {
+      "connected_to": "ULeaf7-port5",
+      "dst-dpid": "ULeaf7",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf7-port5": {
+      "connected_to": "Spine5-port7",
+      "dst-dpid": "Spine5",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine5-port8": {
+      "connected_to": "ULeaf8-port5",
+      "dst-dpid": "ULeaf8",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf8-port5": {
+      "connected_to": "Spine5-port8",
+      "dst-dpid": "Spine5",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine5-port9": {
+      "connected_to": "ULeaf9-port5",
+      "dst-dpid": "ULeaf9",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf9-port5": {
+      "connected_to": "Spine5-port9",
+      "dst-dpid": "Spine5",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine5-port10": {
+      "connected_to": "ULeaf10-port5",
+      "dst-dpid": "ULeaf10",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf10-port5": {
+      "connected_to": "Spine5-port10",
+      "dst-dpid": "Spine5",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine5-port11": {
+      "connected_to": "ULeaf11-port5",
+      "dst-dpid": "ULeaf11",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf11-port5": {
+      "connected_to": "Spine5-port11",
+      "dst-dpid": "Spine5",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine5-port12": {
+      "connected_to": "ULeaf12-port5",
+      "dst-dpid": "ULeaf12",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf12-port5": {
+      "connected_to": "Spine5-port12",
+      "dst-dpid": "Spine5",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine5-port13": {
+      "connected_to": "ULeaf13-port5",
+      "dst-dpid": "ULeaf13",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf13-port5": {
+      "connected_to": "Spine5-port13",
+      "dst-dpid": "Spine5",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine5-port14": {
+      "connected_to": "ULeaf14-port5",
+      "dst-dpid": "ULeaf14",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf14-port5": {
+      "connected_to": "Spine5-port14",
+      "dst-dpid": "Spine5",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine5-port15": {
+      "connected_to": "ULeaf15-port5",
+      "dst-dpid": "ULeaf15",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf15-port5": {
+      "connected_to": "Spine5-port15",
+      "dst-dpid": "Spine5",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine5-port16": {
+      "connected_to": "ULeaf16-port5",
+      "dst-dpid": "ULeaf16",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf16-port5": {
+      "connected_to": "Spine5-port16",
+      "dst-dpid": "Spine5",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine5-port17": {
+      "connected_to": "ULeaf17-port5",
+      "dst-dpid": "ULeaf17",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf17-port5": {
+      "connected_to": "Spine5-port17",
+      "dst-dpid": "Spine5",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine5-port18": {
+      "connected_to": "ULeaf18-port5",
+      "dst-dpid": "ULeaf18",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf18-port5": {
+      "connected_to": "Spine5-port18",
+      "dst-dpid": "Spine5",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine6-port1": {
+      "connected_to": "ULeaf1-port6",
+      "dst-dpid": "ULeaf1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf1-port6": {
+      "connected_to": "Spine6-port1",
+      "dst-dpid": "Spine6",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine6-port2": {
+      "connected_to": "ULeaf2-port6",
+      "dst-dpid": "ULeaf2",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf2-port6": {
+      "connected_to": "Spine6-port2",
+      "dst-dpid": "Spine6",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine6-port3": {
+      "connected_to": "ULeaf3-port6",
+      "dst-dpid": "ULeaf3",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf3-port6": {
+      "connected_to": "Spine6-port3",
+      "dst-dpid": "Spine6",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine6-port4": {
+      "connected_to": "ULeaf4-port6",
+      "dst-dpid": "ULeaf4",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf4-port6": {
+      "connected_to": "Spine6-port4",
+      "dst-dpid": "Spine6",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine6-port5": {
+      "connected_to": "ULeaf5-port6",
+      "dst-dpid": "ULeaf5",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf5-port6": {
+      "connected_to": "Spine6-port5",
+      "dst-dpid": "Spine6",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine6-port6": {
+      "connected_to": "ULeaf6-port6",
+      "dst-dpid": "ULeaf6",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf6-port6": {
+      "connected_to": "Spine6-port6",
+      "dst-dpid": "Spine6",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine6-port7": {
+      "connected_to": "ULeaf7-port6",
+      "dst-dpid": "ULeaf7",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf7-port6": {
+      "connected_to": "Spine6-port7",
+      "dst-dpid": "Spine6",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine6-port8": {
+      "connected_to": "ULeaf8-port6",
+      "dst-dpid": "ULeaf8",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf8-port6": {
+      "connected_to": "Spine6-port8",
+      "dst-dpid": "Spine6",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine6-port9": {
+      "connected_to": "ULeaf9-port6",
+      "dst-dpid": "ULeaf9",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf9-port6": {
+      "connected_to": "Spine6-port9",
+      "dst-dpid": "Spine6",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine6-port10": {
+      "connected_to": "ULeaf10-port6",
+      "dst-dpid": "ULeaf10",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf10-port6": {
+      "connected_to": "Spine6-port10",
+      "dst-dpid": "Spine6",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine6-port11": {
+      "connected_to": "ULeaf11-port6",
+      "dst-dpid": "ULeaf11",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf11-port6": {
+      "connected_to": "Spine6-port11",
+      "dst-dpid": "Spine6",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine6-port12": {
+      "connected_to": "ULeaf12-port6",
+      "dst-dpid": "ULeaf12",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf12-port6": {
+      "connected_to": "Spine6-port12",
+      "dst-dpid": "Spine6",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine6-port13": {
+      "connected_to": "ULeaf13-port6",
+      "dst-dpid": "ULeaf13",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf13-port6": {
+      "connected_to": "Spine6-port13",
+      "dst-dpid": "Spine6",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine6-port14": {
+      "connected_to": "ULeaf14-port6",
+      "dst-dpid": "ULeaf14",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf14-port6": {
+      "connected_to": "Spine6-port14",
+      "dst-dpid": "Spine6",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine6-port15": {
+      "connected_to": "ULeaf15-port6",
+      "dst-dpid": "ULeaf15",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf15-port6": {
+      "connected_to": "Spine6-port15",
+      "dst-dpid": "Spine6",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine6-port16": {
+      "connected_to": "ULeaf16-port6",
+      "dst-dpid": "ULeaf16",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf16-port6": {
+      "connected_to": "Spine6-port16",
+      "dst-dpid": "Spine6",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine6-port17": {
+      "connected_to": "ULeaf17-port6",
+      "dst-dpid": "ULeaf17",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf17-port6": {
+      "connected_to": "Spine6-port17",
+      "dst-dpid": "Spine6",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine6-port18": {
+      "connected_to": "ULeaf18-port6",
+      "dst-dpid": "ULeaf18",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf18-port6": {
+      "connected_to": "Spine6-port18",
+      "dst-dpid": "Spine6",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine7-port1": {
+      "connected_to": "ULeaf1-port7",
+      "dst-dpid": "ULeaf1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf1-port7": {
+      "connected_to": "Spine7-port1",
+      "dst-dpid": "Spine7",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine7-port2": {
+      "connected_to": "ULeaf2-port7",
+      "dst-dpid": "ULeaf2",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf2-port7": {
+      "connected_to": "Spine7-port2",
+      "dst-dpid": "Spine7",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine7-port3": {
+      "connected_to": "ULeaf3-port7",
+      "dst-dpid": "ULeaf3",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf3-port7": {
+      "connected_to": "Spine7-port3",
+      "dst-dpid": "Spine7",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine7-port4": {
+      "connected_to": "ULeaf4-port7",
+      "dst-dpid": "ULeaf4",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf4-port7": {
+      "connected_to": "Spine7-port4",
+      "dst-dpid": "Spine7",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine7-port5": {
+      "connected_to": "ULeaf5-port7",
+      "dst-dpid": "ULeaf5",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf5-port7": {
+      "connected_to": "Spine7-port5",
+      "dst-dpid": "Spine7",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine7-port6": {
+      "connected_to": "ULeaf6-port7",
+      "dst-dpid": "ULeaf6",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf6-port7": {
+      "connected_to": "Spine7-port6",
+      "dst-dpid": "Spine7",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine7-port7": {
+      "connected_to": "ULeaf7-port7",
+      "dst-dpid": "ULeaf7",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf7-port7": {
+      "connected_to": "Spine7-port7",
+      "dst-dpid": "Spine7",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine7-port8": {
+      "connected_to": "ULeaf8-port7",
+      "dst-dpid": "ULeaf8",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf8-port7": {
+      "connected_to": "Spine7-port8",
+      "dst-dpid": "Spine7",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine7-port9": {
+      "connected_to": "ULeaf9-port7",
+      "dst-dpid": "ULeaf9",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf9-port7": {
+      "connected_to": "Spine7-port9",
+      "dst-dpid": "Spine7",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine7-port10": {
+      "connected_to": "ULeaf10-port7",
+      "dst-dpid": "ULeaf10",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf10-port7": {
+      "connected_to": "Spine7-port10",
+      "dst-dpid": "Spine7",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine7-port11": {
+      "connected_to": "ULeaf11-port7",
+      "dst-dpid": "ULeaf11",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf11-port7": {
+      "connected_to": "Spine7-port11",
+      "dst-dpid": "Spine7",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine7-port12": {
+      "connected_to": "ULeaf12-port7",
+      "dst-dpid": "ULeaf12",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf12-port7": {
+      "connected_to": "Spine7-port12",
+      "dst-dpid": "Spine7",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine7-port13": {
+      "connected_to": "ULeaf13-port7",
+      "dst-dpid": "ULeaf13",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf13-port7": {
+      "connected_to": "Spine7-port13",
+      "dst-dpid": "Spine7",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine7-port14": {
+      "connected_to": "ULeaf14-port7",
+      "dst-dpid": "ULeaf14",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf14-port7": {
+      "connected_to": "Spine7-port14",
+      "dst-dpid": "Spine7",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine7-port15": {
+      "connected_to": "ULeaf15-port7",
+      "dst-dpid": "ULeaf15",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf15-port7": {
+      "connected_to": "Spine7-port15",
+      "dst-dpid": "Spine7",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine7-port16": {
+      "connected_to": "ULeaf16-port7",
+      "dst-dpid": "ULeaf16",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf16-port7": {
+      "connected_to": "Spine7-port16",
+      "dst-dpid": "Spine7",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine7-port17": {
+      "connected_to": "ULeaf17-port7",
+      "dst-dpid": "ULeaf17",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf17-port7": {
+      "connected_to": "Spine7-port17",
+      "dst-dpid": "Spine7",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine7-port18": {
+      "connected_to": "ULeaf18-port7",
+      "dst-dpid": "ULeaf18",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf18-port7": {
+      "connected_to": "Spine7-port18",
+      "dst-dpid": "Spine7",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine8-port1": {
+      "connected_to": "ULeaf1-port8",
+      "dst-dpid": "ULeaf1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf1-port8": {
+      "connected_to": "Spine8-port1",
+      "dst-dpid": "Spine8",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine8-port2": {
+      "connected_to": "ULeaf2-port8",
+      "dst-dpid": "ULeaf2",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf2-port8": {
+      "connected_to": "Spine8-port2",
+      "dst-dpid": "Spine8",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine8-port3": {
+      "connected_to": "ULeaf3-port8",
+      "dst-dpid": "ULeaf3",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf3-port8": {
+      "connected_to": "Spine8-port3",
+      "dst-dpid": "Spine8",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine8-port4": {
+      "connected_to": "ULeaf4-port8",
+      "dst-dpid": "ULeaf4",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf4-port8": {
+      "connected_to": "Spine8-port4",
+      "dst-dpid": "Spine8",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine8-port5": {
+      "connected_to": "ULeaf5-port8",
+      "dst-dpid": "ULeaf5",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf5-port8": {
+      "connected_to": "Spine8-port5",
+      "dst-dpid": "Spine8",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine8-port6": {
+      "connected_to": "ULeaf6-port8",
+      "dst-dpid": "ULeaf6",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf6-port8": {
+      "connected_to": "Spine8-port6",
+      "dst-dpid": "Spine8",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine8-port7": {
+      "connected_to": "ULeaf7-port8",
+      "dst-dpid": "ULeaf7",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf7-port8": {
+      "connected_to": "Spine8-port7",
+      "dst-dpid": "Spine8",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine8-port8": {
+      "connected_to": "ULeaf8-port8",
+      "dst-dpid": "ULeaf8",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf8-port8": {
+      "connected_to": "Spine8-port8",
+      "dst-dpid": "Spine8",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine8-port9": {
+      "connected_to": "ULeaf9-port8",
+      "dst-dpid": "ULeaf9",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf9-port8": {
+      "connected_to": "Spine8-port9",
+      "dst-dpid": "Spine8",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine8-port10": {
+      "connected_to": "ULeaf10-port8",
+      "dst-dpid": "ULeaf10",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf10-port8": {
+      "connected_to": "Spine8-port10",
+      "dst-dpid": "Spine8",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine8-port11": {
+      "connected_to": "ULeaf11-port8",
+      "dst-dpid": "ULeaf11",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf11-port8": {
+      "connected_to": "Spine8-port11",
+      "dst-dpid": "Spine8",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine8-port12": {
+      "connected_to": "ULeaf12-port8",
+      "dst-dpid": "ULeaf12",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf12-port8": {
+      "connected_to": "Spine8-port12",
+      "dst-dpid": "Spine8",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine8-port13": {
+      "connected_to": "ULeaf13-port8",
+      "dst-dpid": "ULeaf13",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf13-port8": {
+      "connected_to": "Spine8-port13",
+      "dst-dpid": "Spine8",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine8-port14": {
+      "connected_to": "ULeaf14-port8",
+      "dst-dpid": "ULeaf14",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf14-port8": {
+      "connected_to": "Spine8-port14",
+      "dst-dpid": "Spine8",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine8-port15": {
+      "connected_to": "ULeaf15-port8",
+      "dst-dpid": "ULeaf15",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf15-port8": {
+      "connected_to": "Spine8-port15",
+      "dst-dpid": "Spine8",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine8-port16": {
+      "connected_to": "ULeaf16-port8",
+      "dst-dpid": "ULeaf16",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf16-port8": {
+      "connected_to": "Spine8-port16",
+      "dst-dpid": "Spine8",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine8-port17": {
+      "connected_to": "ULeaf17-port8",
+      "dst-dpid": "ULeaf17",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf17-port8": {
+      "connected_to": "Spine8-port17",
+      "dst-dpid": "Spine8",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine8-port18": {
+      "connected_to": "ULeaf18-port8",
+      "dst-dpid": "ULeaf18",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf18-port8": {
+      "connected_to": "Spine8-port18",
+      "dst-dpid": "Spine8",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine9-port1": {
+      "connected_to": "ULeaf1-port9",
+      "dst-dpid": "ULeaf1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf1-port9": {
+      "connected_to": "Spine9-port1",
+      "dst-dpid": "Spine9",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine9-port2": {
+      "connected_to": "ULeaf2-port9",
+      "dst-dpid": "ULeaf2",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf2-port9": {
+      "connected_to": "Spine9-port2",
+      "dst-dpid": "Spine9",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine9-port3": {
+      "connected_to": "ULeaf3-port9",
+      "dst-dpid": "ULeaf3",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf3-port9": {
+      "connected_to": "Spine9-port3",
+      "dst-dpid": "Spine9",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine9-port4": {
+      "connected_to": "ULeaf4-port9",
+      "dst-dpid": "ULeaf4",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf4-port9": {
+      "connected_to": "Spine9-port4",
+      "dst-dpid": "Spine9",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine9-port5": {
+      "connected_to": "ULeaf5-port9",
+      "dst-dpid": "ULeaf5",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf5-port9": {
+      "connected_to": "Spine9-port5",
+      "dst-dpid": "Spine9",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine9-port6": {
+      "connected_to": "ULeaf6-port9",
+      "dst-dpid": "ULeaf6",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf6-port9": {
+      "connected_to": "Spine9-port6",
+      "dst-dpid": "Spine9",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine9-port7": {
+      "connected_to": "ULeaf7-port9",
+      "dst-dpid": "ULeaf7",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf7-port9": {
+      "connected_to": "Spine9-port7",
+      "dst-dpid": "Spine9",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine9-port8": {
+      "connected_to": "ULeaf8-port9",
+      "dst-dpid": "ULeaf8",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf8-port9": {
+      "connected_to": "Spine9-port8",
+      "dst-dpid": "Spine9",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine9-port9": {
+      "connected_to": "ULeaf9-port9",
+      "dst-dpid": "ULeaf9",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf9-port9": {
+      "connected_to": "Spine9-port9",
+      "dst-dpid": "Spine9",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine9-port10": {
+      "connected_to": "ULeaf10-port9",
+      "dst-dpid": "ULeaf10",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf10-port9": {
+      "connected_to": "Spine9-port10",
+      "dst-dpid": "Spine9",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine9-port11": {
+      "connected_to": "ULeaf11-port9",
+      "dst-dpid": "ULeaf11",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf11-port9": {
+      "connected_to": "Spine9-port11",
+      "dst-dpid": "Spine9",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine9-port12": {
+      "connected_to": "ULeaf12-port9",
+      "dst-dpid": "ULeaf12",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf12-port9": {
+      "connected_to": "Spine9-port12",
+      "dst-dpid": "Spine9",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine9-port13": {
+      "connected_to": "ULeaf13-port9",
+      "dst-dpid": "ULeaf13",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf13-port9": {
+      "connected_to": "Spine9-port13",
+      "dst-dpid": "Spine9",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine9-port14": {
+      "connected_to": "ULeaf14-port9",
+      "dst-dpid": "ULeaf14",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf14-port9": {
+      "connected_to": "Spine9-port14",
+      "dst-dpid": "Spine9",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine9-port15": {
+      "connected_to": "ULeaf15-port9",
+      "dst-dpid": "ULeaf15",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf15-port9": {
+      "connected_to": "Spine9-port15",
+      "dst-dpid": "Spine9",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine9-port16": {
+      "connected_to": "ULeaf16-port9",
+      "dst-dpid": "ULeaf16",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf16-port9": {
+      "connected_to": "Spine9-port16",
+      "dst-dpid": "Spine9",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine9-port17": {
+      "connected_to": "ULeaf17-port9",
+      "dst-dpid": "ULeaf17",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf17-port9": {
+      "connected_to": "Spine9-port17",
+      "dst-dpid": "Spine9",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine9-port18": {
+      "connected_to": "ULeaf18-port9",
+      "dst-dpid": "ULeaf18",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf18-port9": {
+      "connected_to": "Spine9-port18",
+      "dst-dpid": "Spine9",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine10-port1": {
+      "connected_to": "ULeaf1-port10",
+      "dst-dpid": "ULeaf1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf1-port10": {
+      "connected_to": "Spine10-port1",
+      "dst-dpid": "Spine10",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine10-port2": {
+      "connected_to": "ULeaf2-port10",
+      "dst-dpid": "ULeaf2",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf2-port10": {
+      "connected_to": "Spine10-port2",
+      "dst-dpid": "Spine10",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine10-port3": {
+      "connected_to": "ULeaf3-port10",
+      "dst-dpid": "ULeaf3",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf3-port10": {
+      "connected_to": "Spine10-port3",
+      "dst-dpid": "Spine10",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine10-port4": {
+      "connected_to": "ULeaf4-port10",
+      "dst-dpid": "ULeaf4",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf4-port10": {
+      "connected_to": "Spine10-port4",
+      "dst-dpid": "Spine10",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine10-port5": {
+      "connected_to": "ULeaf5-port10",
+      "dst-dpid": "ULeaf5",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf5-port10": {
+      "connected_to": "Spine10-port5",
+      "dst-dpid": "Spine10",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine10-port6": {
+      "connected_to": "ULeaf6-port10",
+      "dst-dpid": "ULeaf6",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf6-port10": {
+      "connected_to": "Spine10-port6",
+      "dst-dpid": "Spine10",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine10-port7": {
+      "connected_to": "ULeaf7-port10",
+      "dst-dpid": "ULeaf7",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf7-port10": {
+      "connected_to": "Spine10-port7",
+      "dst-dpid": "Spine10",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine10-port8": {
+      "connected_to": "ULeaf8-port10",
+      "dst-dpid": "ULeaf8",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf8-port10": {
+      "connected_to": "Spine10-port8",
+      "dst-dpid": "Spine10",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine10-port9": {
+      "connected_to": "ULeaf9-port10",
+      "dst-dpid": "ULeaf9",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf9-port10": {
+      "connected_to": "Spine10-port9",
+      "dst-dpid": "Spine10",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine10-port10": {
+      "connected_to": "ULeaf10-port10",
+      "dst-dpid": "ULeaf10",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf10-port10": {
+      "connected_to": "Spine10-port10",
+      "dst-dpid": "Spine10",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine10-port11": {
+      "connected_to": "ULeaf11-port10",
+      "dst-dpid": "ULeaf11",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf11-port10": {
+      "connected_to": "Spine10-port11",
+      "dst-dpid": "Spine10",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine10-port12": {
+      "connected_to": "ULeaf12-port10",
+      "dst-dpid": "ULeaf12",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf12-port10": {
+      "connected_to": "Spine10-port12",
+      "dst-dpid": "Spine10",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine10-port13": {
+      "connected_to": "ULeaf13-port10",
+      "dst-dpid": "ULeaf13",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf13-port10": {
+      "connected_to": "Spine10-port13",
+      "dst-dpid": "Spine10",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine10-port14": {
+      "connected_to": "ULeaf14-port10",
+      "dst-dpid": "ULeaf14",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf14-port10": {
+      "connected_to": "Spine10-port14",
+      "dst-dpid": "Spine10",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine10-port15": {
+      "connected_to": "ULeaf15-port10",
+      "dst-dpid": "ULeaf15",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf15-port10": {
+      "connected_to": "Spine10-port15",
+      "dst-dpid": "Spine10",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine10-port16": {
+      "connected_to": "ULeaf16-port10",
+      "dst-dpid": "ULeaf16",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf16-port10": {
+      "connected_to": "Spine10-port16",
+      "dst-dpid": "Spine10",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine10-port17": {
+      "connected_to": "ULeaf17-port10",
+      "dst-dpid": "ULeaf17",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf17-port10": {
+      "connected_to": "Spine10-port17",
+      "dst-dpid": "Spine10",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine10-port18": {
+      "connected_to": "ULeaf18-port10",
+      "dst-dpid": "ULeaf18",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf18-port10": {
+      "connected_to": "Spine10-port18",
+      "dst-dpid": "Spine10",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine11-port1": {
+      "connected_to": "ULeaf1-port11",
+      "dst-dpid": "ULeaf1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf1-port11": {
+      "connected_to": "Spine11-port1",
+      "dst-dpid": "Spine11",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine11-port2": {
+      "connected_to": "ULeaf2-port11",
+      "dst-dpid": "ULeaf2",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf2-port11": {
+      "connected_to": "Spine11-port2",
+      "dst-dpid": "Spine11",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine11-port3": {
+      "connected_to": "ULeaf3-port11",
+      "dst-dpid": "ULeaf3",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf3-port11": {
+      "connected_to": "Spine11-port3",
+      "dst-dpid": "Spine11",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine11-port4": {
+      "connected_to": "ULeaf4-port11",
+      "dst-dpid": "ULeaf4",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf4-port11": {
+      "connected_to": "Spine11-port4",
+      "dst-dpid": "Spine11",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine11-port5": {
+      "connected_to": "ULeaf5-port11",
+      "dst-dpid": "ULeaf5",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf5-port11": {
+      "connected_to": "Spine11-port5",
+      "dst-dpid": "Spine11",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine11-port6": {
+      "connected_to": "ULeaf6-port11",
+      "dst-dpid": "ULeaf6",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf6-port11": {
+      "connected_to": "Spine11-port6",
+      "dst-dpid": "Spine11",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine11-port7": {
+      "connected_to": "ULeaf7-port11",
+      "dst-dpid": "ULeaf7",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf7-port11": {
+      "connected_to": "Spine11-port7",
+      "dst-dpid": "Spine11",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine11-port8": {
+      "connected_to": "ULeaf8-port11",
+      "dst-dpid": "ULeaf8",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf8-port11": {
+      "connected_to": "Spine11-port8",
+      "dst-dpid": "Spine11",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine11-port9": {
+      "connected_to": "ULeaf9-port11",
+      "dst-dpid": "ULeaf9",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf9-port11": {
+      "connected_to": "Spine11-port9",
+      "dst-dpid": "Spine11",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine11-port10": {
+      "connected_to": "ULeaf10-port11",
+      "dst-dpid": "ULeaf10",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf10-port11": {
+      "connected_to": "Spine11-port10",
+      "dst-dpid": "Spine11",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine11-port11": {
+      "connected_to": "ULeaf11-port11",
+      "dst-dpid": "ULeaf11",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf11-port11": {
+      "connected_to": "Spine11-port11",
+      "dst-dpid": "Spine11",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine11-port12": {
+      "connected_to": "ULeaf12-port11",
+      "dst-dpid": "ULeaf12",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf12-port11": {
+      "connected_to": "Spine11-port12",
+      "dst-dpid": "Spine11",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine11-port13": {
+      "connected_to": "ULeaf13-port11",
+      "dst-dpid": "ULeaf13",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf13-port11": {
+      "connected_to": "Spine11-port13",
+      "dst-dpid": "Spine11",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine11-port14": {
+      "connected_to": "ULeaf14-port11",
+      "dst-dpid": "ULeaf14",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf14-port11": {
+      "connected_to": "Spine11-port14",
+      "dst-dpid": "Spine11",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine11-port15": {
+      "connected_to": "ULeaf15-port11",
+      "dst-dpid": "ULeaf15",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf15-port11": {
+      "connected_to": "Spine11-port15",
+      "dst-dpid": "Spine11",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine11-port16": {
+      "connected_to": "ULeaf16-port11",
+      "dst-dpid": "ULeaf16",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf16-port11": {
+      "connected_to": "Spine11-port16",
+      "dst-dpid": "Spine11",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine11-port17": {
+      "connected_to": "ULeaf17-port11",
+      "dst-dpid": "ULeaf17",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf17-port11": {
+      "connected_to": "Spine11-port17",
+      "dst-dpid": "Spine11",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine11-port18": {
+      "connected_to": "ULeaf18-port11",
+      "dst-dpid": "ULeaf18",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf18-port11": {
+      "connected_to": "Spine11-port18",
+      "dst-dpid": "Spine11",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine12-port1": {
+      "connected_to": "ULeaf1-port12",
+      "dst-dpid": "ULeaf1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf1-port12": {
+      "connected_to": "Spine12-port1",
+      "dst-dpid": "Spine12",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine12-port2": {
+      "connected_to": "ULeaf2-port12",
+      "dst-dpid": "ULeaf2",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf2-port12": {
+      "connected_to": "Spine12-port2",
+      "dst-dpid": "Spine12",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine12-port3": {
+      "connected_to": "ULeaf3-port12",
+      "dst-dpid": "ULeaf3",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf3-port12": {
+      "connected_to": "Spine12-port3",
+      "dst-dpid": "Spine12",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine12-port4": {
+      "connected_to": "ULeaf4-port12",
+      "dst-dpid": "ULeaf4",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf4-port12": {
+      "connected_to": "Spine12-port4",
+      "dst-dpid": "Spine12",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine12-port5": {
+      "connected_to": "ULeaf5-port12",
+      "dst-dpid": "ULeaf5",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf5-port12": {
+      "connected_to": "Spine12-port5",
+      "dst-dpid": "Spine12",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine12-port6": {
+      "connected_to": "ULeaf6-port12",
+      "dst-dpid": "ULeaf6",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf6-port12": {
+      "connected_to": "Spine12-port6",
+      "dst-dpid": "Spine12",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine12-port7": {
+      "connected_to": "ULeaf7-port12",
+      "dst-dpid": "ULeaf7",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf7-port12": {
+      "connected_to": "Spine12-port7",
+      "dst-dpid": "Spine12",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine12-port8": {
+      "connected_to": "ULeaf8-port12",
+      "dst-dpid": "ULeaf8",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf8-port12": {
+      "connected_to": "Spine12-port8",
+      "dst-dpid": "Spine12",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine12-port9": {
+      "connected_to": "ULeaf9-port12",
+      "dst-dpid": "ULeaf9",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf9-port12": {
+      "connected_to": "Spine12-port9",
+      "dst-dpid": "Spine12",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine12-port10": {
+      "connected_to": "ULeaf10-port12",
+      "dst-dpid": "ULeaf10",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf10-port12": {
+      "connected_to": "Spine12-port10",
+      "dst-dpid": "Spine12",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine12-port11": {
+      "connected_to": "ULeaf11-port12",
+      "dst-dpid": "ULeaf11",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf11-port12": {
+      "connected_to": "Spine12-port11",
+      "dst-dpid": "Spine12",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine12-port12": {
+      "connected_to": "ULeaf12-port12",
+      "dst-dpid": "ULeaf12",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf12-port12": {
+      "connected_to": "Spine12-port12",
+      "dst-dpid": "Spine12",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine12-port13": {
+      "connected_to": "ULeaf13-port12",
+      "dst-dpid": "ULeaf13",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf13-port12": {
+      "connected_to": "Spine12-port13",
+      "dst-dpid": "Spine12",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine12-port14": {
+      "connected_to": "ULeaf14-port12",
+      "dst-dpid": "ULeaf14",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf14-port12": {
+      "connected_to": "Spine12-port14",
+      "dst-dpid": "Spine12",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine12-port15": {
+      "connected_to": "ULeaf15-port12",
+      "dst-dpid": "ULeaf15",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf15-port12": {
+      "connected_to": "Spine12-port15",
+      "dst-dpid": "Spine12",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine12-port16": {
+      "connected_to": "ULeaf16-port12",
+      "dst-dpid": "ULeaf16",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf16-port12": {
+      "connected_to": "Spine12-port16",
+      "dst-dpid": "Spine12",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine12-port17": {
+      "connected_to": "ULeaf17-port12",
+      "dst-dpid": "ULeaf17",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf17-port12": {
+      "connected_to": "Spine12-port17",
+      "dst-dpid": "Spine12",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine12-port18": {
+      "connected_to": "ULeaf18-port12",
+      "dst-dpid": "ULeaf18",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf18-port12": {
+      "connected_to": "Spine12-port18",
+      "dst-dpid": "Spine12",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine13-port1": {
+      "connected_to": "ULeaf1-port13",
+      "dst-dpid": "ULeaf1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf1-port13": {
+      "connected_to": "Spine13-port1",
+      "dst-dpid": "Spine13",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine13-port2": {
+      "connected_to": "ULeaf2-port13",
+      "dst-dpid": "ULeaf2",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf2-port13": {
+      "connected_to": "Spine13-port2",
+      "dst-dpid": "Spine13",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine13-port3": {
+      "connected_to": "ULeaf3-port13",
+      "dst-dpid": "ULeaf3",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf3-port13": {
+      "connected_to": "Spine13-port3",
+      "dst-dpid": "Spine13",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine13-port4": {
+      "connected_to": "ULeaf4-port13",
+      "dst-dpid": "ULeaf4",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf4-port13": {
+      "connected_to": "Spine13-port4",
+      "dst-dpid": "Spine13",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine13-port5": {
+      "connected_to": "ULeaf5-port13",
+      "dst-dpid": "ULeaf5",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf5-port13": {
+      "connected_to": "Spine13-port5",
+      "dst-dpid": "Spine13",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine13-port6": {
+      "connected_to": "ULeaf6-port13",
+      "dst-dpid": "ULeaf6",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf6-port13": {
+      "connected_to": "Spine13-port6",
+      "dst-dpid": "Spine13",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine13-port7": {
+      "connected_to": "ULeaf7-port13",
+      "dst-dpid": "ULeaf7",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf7-port13": {
+      "connected_to": "Spine13-port7",
+      "dst-dpid": "Spine13",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine13-port8": {
+      "connected_to": "ULeaf8-port13",
+      "dst-dpid": "ULeaf8",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf8-port13": {
+      "connected_to": "Spine13-port8",
+      "dst-dpid": "Spine13",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine13-port9": {
+      "connected_to": "ULeaf9-port13",
+      "dst-dpid": "ULeaf9",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf9-port13": {
+      "connected_to": "Spine13-port9",
+      "dst-dpid": "Spine13",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine13-port10": {
+      "connected_to": "ULeaf10-port13",
+      "dst-dpid": "ULeaf10",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf10-port13": {
+      "connected_to": "Spine13-port10",
+      "dst-dpid": "Spine13",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine13-port11": {
+      "connected_to": "ULeaf11-port13",
+      "dst-dpid": "ULeaf11",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf11-port13": {
+      "connected_to": "Spine13-port11",
+      "dst-dpid": "Spine13",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine13-port12": {
+      "connected_to": "ULeaf12-port13",
+      "dst-dpid": "ULeaf12",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf12-port13": {
+      "connected_to": "Spine13-port12",
+      "dst-dpid": "Spine13",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine13-port13": {
+      "connected_to": "ULeaf13-port13",
+      "dst-dpid": "ULeaf13",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf13-port13": {
+      "connected_to": "Spine13-port13",
+      "dst-dpid": "Spine13",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine13-port14": {
+      "connected_to": "ULeaf14-port13",
+      "dst-dpid": "ULeaf14",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf14-port13": {
+      "connected_to": "Spine13-port14",
+      "dst-dpid": "Spine13",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine13-port15": {
+      "connected_to": "ULeaf15-port13",
+      "dst-dpid": "ULeaf15",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf15-port13": {
+      "connected_to": "Spine13-port15",
+      "dst-dpid": "Spine13",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine13-port16": {
+      "connected_to": "ULeaf16-port13",
+      "dst-dpid": "ULeaf16",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf16-port13": {
+      "connected_to": "Spine13-port16",
+      "dst-dpid": "Spine13",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine13-port17": {
+      "connected_to": "ULeaf17-port13",
+      "dst-dpid": "ULeaf17",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf17-port13": {
+      "connected_to": "Spine13-port17",
+      "dst-dpid": "Spine13",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine13-port18": {
+      "connected_to": "ULeaf18-port13",
+      "dst-dpid": "ULeaf18",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf18-port13": {
+      "connected_to": "Spine13-port18",
+      "dst-dpid": "Spine13",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine14-port1": {
+      "connected_to": "ULeaf1-port14",
+      "dst-dpid": "ULeaf1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf1-port14": {
+      "connected_to": "Spine14-port1",
+      "dst-dpid": "Spine14",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine14-port2": {
+      "connected_to": "ULeaf2-port14",
+      "dst-dpid": "ULeaf2",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf2-port14": {
+      "connected_to": "Spine14-port2",
+      "dst-dpid": "Spine14",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine14-port3": {
+      "connected_to": "ULeaf3-port14",
+      "dst-dpid": "ULeaf3",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf3-port14": {
+      "connected_to": "Spine14-port3",
+      "dst-dpid": "Spine14",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine14-port4": {
+      "connected_to": "ULeaf4-port14",
+      "dst-dpid": "ULeaf4",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf4-port14": {
+      "connected_to": "Spine14-port4",
+      "dst-dpid": "Spine14",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine14-port5": {
+      "connected_to": "ULeaf5-port14",
+      "dst-dpid": "ULeaf5",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf5-port14": {
+      "connected_to": "Spine14-port5",
+      "dst-dpid": "Spine14",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine14-port6": {
+      "connected_to": "ULeaf6-port14",
+      "dst-dpid": "ULeaf6",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf6-port14": {
+      "connected_to": "Spine14-port6",
+      "dst-dpid": "Spine14",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine14-port7": {
+      "connected_to": "ULeaf7-port14",
+      "dst-dpid": "ULeaf7",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf7-port14": {
+      "connected_to": "Spine14-port7",
+      "dst-dpid": "Spine14",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine14-port8": {
+      "connected_to": "ULeaf8-port14",
+      "dst-dpid": "ULeaf8",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf8-port14": {
+      "connected_to": "Spine14-port8",
+      "dst-dpid": "Spine14",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine14-port9": {
+      "connected_to": "ULeaf9-port14",
+      "dst-dpid": "ULeaf9",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf9-port14": {
+      "connected_to": "Spine14-port9",
+      "dst-dpid": "Spine14",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine14-port10": {
+      "connected_to": "ULeaf10-port14",
+      "dst-dpid": "ULeaf10",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf10-port14": {
+      "connected_to": "Spine14-port10",
+      "dst-dpid": "Spine14",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine14-port11": {
+      "connected_to": "ULeaf11-port14",
+      "dst-dpid": "ULeaf11",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf11-port14": {
+      "connected_to": "Spine14-port11",
+      "dst-dpid": "Spine14",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine14-port12": {
+      "connected_to": "ULeaf12-port14",
+      "dst-dpid": "ULeaf12",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf12-port14": {
+      "connected_to": "Spine14-port12",
+      "dst-dpid": "Spine14",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine14-port13": {
+      "connected_to": "ULeaf13-port14",
+      "dst-dpid": "ULeaf13",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf13-port14": {
+      "connected_to": "Spine14-port13",
+      "dst-dpid": "Spine14",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine14-port14": {
+      "connected_to": "ULeaf14-port14",
+      "dst-dpid": "ULeaf14",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf14-port14": {
+      "connected_to": "Spine14-port14",
+      "dst-dpid": "Spine14",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine14-port15": {
+      "connected_to": "ULeaf15-port14",
+      "dst-dpid": "ULeaf15",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf15-port14": {
+      "connected_to": "Spine14-port15",
+      "dst-dpid": "Spine14",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine14-port16": {
+      "connected_to": "ULeaf16-port14",
+      "dst-dpid": "ULeaf16",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf16-port14": {
+      "connected_to": "Spine14-port16",
+      "dst-dpid": "Spine14",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine14-port17": {
+      "connected_to": "ULeaf17-port14",
+      "dst-dpid": "ULeaf17",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf17-port14": {
+      "connected_to": "Spine14-port17",
+      "dst-dpid": "Spine14",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine14-port18": {
+      "connected_to": "ULeaf18-port14",
+      "dst-dpid": "ULeaf18",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf18-port14": {
+      "connected_to": "Spine14-port18",
+      "dst-dpid": "Spine14",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine15-port1": {
+      "connected_to": "ULeaf1-port15",
+      "dst-dpid": "ULeaf1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf1-port15": {
+      "connected_to": "Spine15-port1",
+      "dst-dpid": "Spine15",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine15-port2": {
+      "connected_to": "ULeaf2-port15",
+      "dst-dpid": "ULeaf2",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf2-port15": {
+      "connected_to": "Spine15-port2",
+      "dst-dpid": "Spine15",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine15-port3": {
+      "connected_to": "ULeaf3-port15",
+      "dst-dpid": "ULeaf3",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf3-port15": {
+      "connected_to": "Spine15-port3",
+      "dst-dpid": "Spine15",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine15-port4": {
+      "connected_to": "ULeaf4-port15",
+      "dst-dpid": "ULeaf4",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf4-port15": {
+      "connected_to": "Spine15-port4",
+      "dst-dpid": "Spine15",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine15-port5": {
+      "connected_to": "ULeaf5-port15",
+      "dst-dpid": "ULeaf5",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf5-port15": {
+      "connected_to": "Spine15-port5",
+      "dst-dpid": "Spine15",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine15-port6": {
+      "connected_to": "ULeaf6-port15",
+      "dst-dpid": "ULeaf6",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf6-port15": {
+      "connected_to": "Spine15-port6",
+      "dst-dpid": "Spine15",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine15-port7": {
+      "connected_to": "ULeaf7-port15",
+      "dst-dpid": "ULeaf7",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf7-port15": {
+      "connected_to": "Spine15-port7",
+      "dst-dpid": "Spine15",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine15-port8": {
+      "connected_to": "ULeaf8-port15",
+      "dst-dpid": "ULeaf8",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf8-port15": {
+      "connected_to": "Spine15-port8",
+      "dst-dpid": "Spine15",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine15-port9": {
+      "connected_to": "ULeaf9-port15",
+      "dst-dpid": "ULeaf9",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf9-port15": {
+      "connected_to": "Spine15-port9",
+      "dst-dpid": "Spine15",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine15-port10": {
+      "connected_to": "ULeaf10-port15",
+      "dst-dpid": "ULeaf10",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf10-port15": {
+      "connected_to": "Spine15-port10",
+      "dst-dpid": "Spine15",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine15-port11": {
+      "connected_to": "ULeaf11-port15",
+      "dst-dpid": "ULeaf11",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf11-port15": {
+      "connected_to": "Spine15-port11",
+      "dst-dpid": "Spine15",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine15-port12": {
+      "connected_to": "ULeaf12-port15",
+      "dst-dpid": "ULeaf12",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf12-port15": {
+      "connected_to": "Spine15-port12",
+      "dst-dpid": "Spine15",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine15-port13": {
+      "connected_to": "ULeaf13-port15",
+      "dst-dpid": "ULeaf13",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf13-port15": {
+      "connected_to": "Spine15-port13",
+      "dst-dpid": "Spine15",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine15-port14": {
+      "connected_to": "ULeaf14-port15",
+      "dst-dpid": "ULeaf14",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf14-port15": {
+      "connected_to": "Spine15-port14",
+      "dst-dpid": "Spine15",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine15-port15": {
+      "connected_to": "ULeaf15-port15",
+      "dst-dpid": "ULeaf15",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf15-port15": {
+      "connected_to": "Spine15-port15",
+      "dst-dpid": "Spine15",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine15-port16": {
+      "connected_to": "ULeaf16-port15",
+      "dst-dpid": "ULeaf16",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf16-port15": {
+      "connected_to": "Spine15-port16",
+      "dst-dpid": "Spine15",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine15-port17": {
+      "connected_to": "ULeaf17-port15",
+      "dst-dpid": "ULeaf17",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf17-port15": {
+      "connected_to": "Spine15-port17",
+      "dst-dpid": "Spine15",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine15-port18": {
+      "connected_to": "ULeaf18-port15",
+      "dst-dpid": "ULeaf18",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf18-port15": {
+      "connected_to": "Spine15-port18",
+      "dst-dpid": "Spine15",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine16-port1": {
+      "connected_to": "ULeaf1-port16",
+      "dst-dpid": "ULeaf1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf1-port16": {
+      "connected_to": "Spine16-port1",
+      "dst-dpid": "Spine16",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine16-port2": {
+      "connected_to": "ULeaf2-port16",
+      "dst-dpid": "ULeaf2",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf2-port16": {
+      "connected_to": "Spine16-port2",
+      "dst-dpid": "Spine16",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine16-port3": {
+      "connected_to": "ULeaf3-port16",
+      "dst-dpid": "ULeaf3",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf3-port16": {
+      "connected_to": "Spine16-port3",
+      "dst-dpid": "Spine16",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine16-port4": {
+      "connected_to": "ULeaf4-port16",
+      "dst-dpid": "ULeaf4",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf4-port16": {
+      "connected_to": "Spine16-port4",
+      "dst-dpid": "Spine16",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine16-port5": {
+      "connected_to": "ULeaf5-port16",
+      "dst-dpid": "ULeaf5",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf5-port16": {
+      "connected_to": "Spine16-port5",
+      "dst-dpid": "Spine16",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine16-port6": {
+      "connected_to": "ULeaf6-port16",
+      "dst-dpid": "ULeaf6",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf6-port16": {
+      "connected_to": "Spine16-port6",
+      "dst-dpid": "Spine16",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine16-port7": {
+      "connected_to": "ULeaf7-port16",
+      "dst-dpid": "ULeaf7",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf7-port16": {
+      "connected_to": "Spine16-port7",
+      "dst-dpid": "Spine16",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine16-port8": {
+      "connected_to": "ULeaf8-port16",
+      "dst-dpid": "ULeaf8",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf8-port16": {
+      "connected_to": "Spine16-port8",
+      "dst-dpid": "Spine16",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine16-port9": {
+      "connected_to": "ULeaf9-port16",
+      "dst-dpid": "ULeaf9",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf9-port16": {
+      "connected_to": "Spine16-port9",
+      "dst-dpid": "Spine16",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine16-port10": {
+      "connected_to": "ULeaf10-port16",
+      "dst-dpid": "ULeaf10",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf10-port16": {
+      "connected_to": "Spine16-port10",
+      "dst-dpid": "Spine16",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine16-port11": {
+      "connected_to": "ULeaf11-port16",
+      "dst-dpid": "ULeaf11",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf11-port16": {
+      "connected_to": "Spine16-port11",
+      "dst-dpid": "Spine16",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine16-port12": {
+      "connected_to": "ULeaf12-port16",
+      "dst-dpid": "ULeaf12",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf12-port16": {
+      "connected_to": "Spine16-port12",
+      "dst-dpid": "Spine16",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine16-port13": {
+      "connected_to": "ULeaf13-port16",
+      "dst-dpid": "ULeaf13",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf13-port16": {
+      "connected_to": "Spine16-port13",
+      "dst-dpid": "Spine16",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine16-port14": {
+      "connected_to": "ULeaf14-port16",
+      "dst-dpid": "ULeaf14",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf14-port16": {
+      "connected_to": "Spine16-port14",
+      "dst-dpid": "Spine16",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine16-port15": {
+      "connected_to": "ULeaf15-port16",
+      "dst-dpid": "ULeaf15",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf15-port16": {
+      "connected_to": "Spine16-port15",
+      "dst-dpid": "Spine16",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine16-port16": {
+      "connected_to": "ULeaf16-port16",
+      "dst-dpid": "ULeaf16",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf16-port16": {
+      "connected_to": "Spine16-port16",
+      "dst-dpid": "Spine16",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine16-port17": {
+      "connected_to": "ULeaf17-port16",
+      "dst-dpid": "ULeaf17",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf17-port16": {
+      "connected_to": "Spine16-port17",
+      "dst-dpid": "Spine16",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine16-port18": {
+      "connected_to": "ULeaf18-port16",
+      "dst-dpid": "ULeaf18",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf18-port16": {
+      "connected_to": "Spine16-port18",
+      "dst-dpid": "Spine16",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine17-port1": {
+      "connected_to": "ULeaf1-port17",
+      "dst-dpid": "ULeaf1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf1-port17": {
+      "connected_to": "Spine17-port1",
+      "dst-dpid": "Spine17",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine17-port2": {
+      "connected_to": "ULeaf2-port17",
+      "dst-dpid": "ULeaf2",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf2-port17": {
+      "connected_to": "Spine17-port2",
+      "dst-dpid": "Spine17",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine17-port3": {
+      "connected_to": "ULeaf3-port17",
+      "dst-dpid": "ULeaf3",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf3-port17": {
+      "connected_to": "Spine17-port3",
+      "dst-dpid": "Spine17",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine17-port4": {
+      "connected_to": "ULeaf4-port17",
+      "dst-dpid": "ULeaf4",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf4-port17": {
+      "connected_to": "Spine17-port4",
+      "dst-dpid": "Spine17",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine17-port5": {
+      "connected_to": "ULeaf5-port17",
+      "dst-dpid": "ULeaf5",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf5-port17": {
+      "connected_to": "Spine17-port5",
+      "dst-dpid": "Spine17",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine17-port6": {
+      "connected_to": "ULeaf6-port17",
+      "dst-dpid": "ULeaf6",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf6-port17": {
+      "connected_to": "Spine17-port6",
+      "dst-dpid": "Spine17",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine17-port7": {
+      "connected_to": "ULeaf7-port17",
+      "dst-dpid": "ULeaf7",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf7-port17": {
+      "connected_to": "Spine17-port7",
+      "dst-dpid": "Spine17",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine17-port8": {
+      "connected_to": "ULeaf8-port17",
+      "dst-dpid": "ULeaf8",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf8-port17": {
+      "connected_to": "Spine17-port8",
+      "dst-dpid": "Spine17",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine17-port9": {
+      "connected_to": "ULeaf9-port17",
+      "dst-dpid": "ULeaf9",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf9-port17": {
+      "connected_to": "Spine17-port9",
+      "dst-dpid": "Spine17",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine17-port10": {
+      "connected_to": "ULeaf10-port17",
+      "dst-dpid": "ULeaf10",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf10-port17": {
+      "connected_to": "Spine17-port10",
+      "dst-dpid": "Spine17",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine17-port11": {
+      "connected_to": "ULeaf11-port17",
+      "dst-dpid": "ULeaf11",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf11-port17": {
+      "connected_to": "Spine17-port11",
+      "dst-dpid": "Spine17",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine17-port12": {
+      "connected_to": "ULeaf12-port17",
+      "dst-dpid": "ULeaf12",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf12-port17": {
+      "connected_to": "Spine17-port12",
+      "dst-dpid": "Spine17",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine17-port13": {
+      "connected_to": "ULeaf13-port17",
+      "dst-dpid": "ULeaf13",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf13-port17": {
+      "connected_to": "Spine17-port13",
+      "dst-dpid": "Spine17",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine17-port14": {
+      "connected_to": "ULeaf14-port17",
+      "dst-dpid": "ULeaf14",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf14-port17": {
+      "connected_to": "Spine17-port14",
+      "dst-dpid": "Spine17",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine17-port15": {
+      "connected_to": "ULeaf15-port17",
+      "dst-dpid": "ULeaf15",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf15-port17": {
+      "connected_to": "Spine17-port15",
+      "dst-dpid": "Spine17",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine17-port16": {
+      "connected_to": "ULeaf16-port17",
+      "dst-dpid": "ULeaf16",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf16-port17": {
+      "connected_to": "Spine17-port16",
+      "dst-dpid": "Spine17",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine17-port17": {
+      "connected_to": "ULeaf17-port17",
+      "dst-dpid": "ULeaf17",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf17-port17": {
+      "connected_to": "Spine17-port17",
+      "dst-dpid": "Spine17",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine17-port18": {
+      "connected_to": "ULeaf18-port17",
+      "dst-dpid": "ULeaf18",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf18-port17": {
+      "connected_to": "Spine17-port18",
+      "dst-dpid": "Spine17",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine18-port1": {
+      "connected_to": "ULeaf1-port18",
+      "dst-dpid": "ULeaf1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf1-port18": {
+      "connected_to": "Spine18-port1",
+      "dst-dpid": "Spine18",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine18-port2": {
+      "connected_to": "ULeaf2-port18",
+      "dst-dpid": "ULeaf2",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf2-port18": {
+      "connected_to": "Spine18-port2",
+      "dst-dpid": "Spine18",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine18-port3": {
+      "connected_to": "ULeaf3-port18",
+      "dst-dpid": "ULeaf3",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf3-port18": {
+      "connected_to": "Spine18-port3",
+      "dst-dpid": "Spine18",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine18-port4": {
+      "connected_to": "ULeaf4-port18",
+      "dst-dpid": "ULeaf4",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf4-port18": {
+      "connected_to": "Spine18-port4",
+      "dst-dpid": "Spine18",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine18-port5": {
+      "connected_to": "ULeaf5-port18",
+      "dst-dpid": "ULeaf5",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf5-port18": {
+      "connected_to": "Spine18-port5",
+      "dst-dpid": "Spine18",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine18-port6": {
+      "connected_to": "ULeaf6-port18",
+      "dst-dpid": "ULeaf6",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf6-port18": {
+      "connected_to": "Spine18-port6",
+      "dst-dpid": "Spine18",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine18-port7": {
+      "connected_to": "ULeaf7-port18",
+      "dst-dpid": "ULeaf7",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf7-port18": {
+      "connected_to": "Spine18-port7",
+      "dst-dpid": "Spine18",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine18-port8": {
+      "connected_to": "ULeaf8-port18",
+      "dst-dpid": "ULeaf8",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf8-port18": {
+      "connected_to": "Spine18-port8",
+      "dst-dpid": "Spine18",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine18-port9": {
+      "connected_to": "ULeaf9-port18",
+      "dst-dpid": "ULeaf9",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf9-port18": {
+      "connected_to": "Spine18-port9",
+      "dst-dpid": "Spine18",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine18-port10": {
+      "connected_to": "ULeaf10-port18",
+      "dst-dpid": "ULeaf10",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf10-port18": {
+      "connected_to": "Spine18-port10",
+      "dst-dpid": "Spine18",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine18-port11": {
+      "connected_to": "ULeaf11-port18",
+      "dst-dpid": "ULeaf11",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf11-port18": {
+      "connected_to": "Spine18-port11",
+      "dst-dpid": "Spine18",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine18-port12": {
+      "connected_to": "ULeaf12-port18",
+      "dst-dpid": "ULeaf12",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf12-port18": {
+      "connected_to": "Spine18-port12",
+      "dst-dpid": "Spine18",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine18-port13": {
+      "connected_to": "ULeaf13-port18",
+      "dst-dpid": "ULeaf13",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf13-port18": {
+      "connected_to": "Spine18-port13",
+      "dst-dpid": "Spine18",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine18-port14": {
+      "connected_to": "ULeaf14-port18",
+      "dst-dpid": "ULeaf14",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf14-port18": {
+      "connected_to": "Spine18-port14",
+      "dst-dpid": "Spine18",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine18-port15": {
+      "connected_to": "ULeaf15-port18",
+      "dst-dpid": "ULeaf15",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf15-port18": {
+      "connected_to": "Spine18-port15",
+      "dst-dpid": "Spine18",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine18-port16": {
+      "connected_to": "ULeaf16-port18",
+      "dst-dpid": "ULeaf16",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf16-port18": {
+      "connected_to": "Spine18-port16",
+      "dst-dpid": "Spine18",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine18-port17": {
+      "connected_to": "ULeaf17-port18",
+      "dst-dpid": "ULeaf17",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf17-port18": {
+      "connected_to": "Spine18-port17",
+      "dst-dpid": "Spine18",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine18-port18": {
+      "connected_to": "ULeaf18-port18",
+      "dst-dpid": "ULeaf18",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf18-port18": {
+      "connected_to": "Spine18-port18",
+      "dst-dpid": "Spine18",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine19-port1": {
+      "connected_to": "ULeaf1-port19",
+      "dst-dpid": "ULeaf1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf1-port19": {
+      "connected_to": "Spine19-port1",
+      "dst-dpid": "Spine19",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine19-port2": {
+      "connected_to": "ULeaf2-port19",
+      "dst-dpid": "ULeaf2",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf2-port19": {
+      "connected_to": "Spine19-port2",
+      "dst-dpid": "Spine19",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine19-port3": {
+      "connected_to": "ULeaf3-port19",
+      "dst-dpid": "ULeaf3",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf3-port19": {
+      "connected_to": "Spine19-port3",
+      "dst-dpid": "Spine19",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine19-port4": {
+      "connected_to": "ULeaf4-port19",
+      "dst-dpid": "ULeaf4",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf4-port19": {
+      "connected_to": "Spine19-port4",
+      "dst-dpid": "Spine19",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine19-port5": {
+      "connected_to": "ULeaf5-port19",
+      "dst-dpid": "ULeaf5",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf5-port19": {
+      "connected_to": "Spine19-port5",
+      "dst-dpid": "Spine19",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine19-port6": {
+      "connected_to": "ULeaf6-port19",
+      "dst-dpid": "ULeaf6",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf6-port19": {
+      "connected_to": "Spine19-port6",
+      "dst-dpid": "Spine19",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine19-port7": {
+      "connected_to": "ULeaf7-port19",
+      "dst-dpid": "ULeaf7",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf7-port19": {
+      "connected_to": "Spine19-port7",
+      "dst-dpid": "Spine19",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine19-port8": {
+      "connected_to": "ULeaf8-port19",
+      "dst-dpid": "ULeaf8",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf8-port19": {
+      "connected_to": "Spine19-port8",
+      "dst-dpid": "Spine19",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine19-port9": {
+      "connected_to": "ULeaf9-port19",
+      "dst-dpid": "ULeaf9",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf9-port19": {
+      "connected_to": "Spine19-port9",
+      "dst-dpid": "Spine19",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine19-port10": {
+      "connected_to": "ULeaf10-port19",
+      "dst-dpid": "ULeaf10",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf10-port19": {
+      "connected_to": "Spine19-port10",
+      "dst-dpid": "Spine19",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine19-port11": {
+      "connected_to": "ULeaf11-port19",
+      "dst-dpid": "ULeaf11",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf11-port19": {
+      "connected_to": "Spine19-port11",
+      "dst-dpid": "Spine19",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine19-port12": {
+      "connected_to": "ULeaf12-port19",
+      "dst-dpid": "ULeaf12",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf12-port19": {
+      "connected_to": "Spine19-port12",
+      "dst-dpid": "Spine19",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine19-port13": {
+      "connected_to": "ULeaf13-port19",
+      "dst-dpid": "ULeaf13",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf13-port19": {
+      "connected_to": "Spine19-port13",
+      "dst-dpid": "Spine19",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine19-port14": {
+      "connected_to": "ULeaf14-port19",
+      "dst-dpid": "ULeaf14",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf14-port19": {
+      "connected_to": "Spine19-port14",
+      "dst-dpid": "Spine19",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine19-port15": {
+      "connected_to": "ULeaf15-port19",
+      "dst-dpid": "ULeaf15",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf15-port19": {
+      "connected_to": "Spine19-port15",
+      "dst-dpid": "Spine19",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine19-port16": {
+      "connected_to": "ULeaf16-port19",
+      "dst-dpid": "ULeaf16",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf16-port19": {
+      "connected_to": "Spine19-port16",
+      "dst-dpid": "Spine19",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine19-port17": {
+      "connected_to": "ULeaf17-port19",
+      "dst-dpid": "ULeaf17",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf17-port19": {
+      "connected_to": "Spine19-port17",
+      "dst-dpid": "Spine19",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine19-port18": {
+      "connected_to": "ULeaf18-port19",
+      "dst-dpid": "ULeaf18",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf18-port19": {
+      "connected_to": "Spine19-port18",
+      "dst-dpid": "Spine19",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine20-port1": {
+      "connected_to": "ULeaf1-port20",
+      "dst-dpid": "ULeaf1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf1-port20": {
+      "connected_to": "Spine20-port1",
+      "dst-dpid": "Spine20",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine20-port2": {
+      "connected_to": "ULeaf2-port20",
+      "dst-dpid": "ULeaf2",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf2-port20": {
+      "connected_to": "Spine20-port2",
+      "dst-dpid": "Spine20",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine20-port3": {
+      "connected_to": "ULeaf3-port20",
+      "dst-dpid": "ULeaf3",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf3-port20": {
+      "connected_to": "Spine20-port3",
+      "dst-dpid": "Spine20",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine20-port4": {
+      "connected_to": "ULeaf4-port20",
+      "dst-dpid": "ULeaf4",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf4-port20": {
+      "connected_to": "Spine20-port4",
+      "dst-dpid": "Spine20",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine20-port5": {
+      "connected_to": "ULeaf5-port20",
+      "dst-dpid": "ULeaf5",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf5-port20": {
+      "connected_to": "Spine20-port5",
+      "dst-dpid": "Spine20",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine20-port6": {
+      "connected_to": "ULeaf6-port20",
+      "dst-dpid": "ULeaf6",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf6-port20": {
+      "connected_to": "Spine20-port6",
+      "dst-dpid": "Spine20",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine20-port7": {
+      "connected_to": "ULeaf7-port20",
+      "dst-dpid": "ULeaf7",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf7-port20": {
+      "connected_to": "Spine20-port7",
+      "dst-dpid": "Spine20",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine20-port8": {
+      "connected_to": "ULeaf8-port20",
+      "dst-dpid": "ULeaf8",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf8-port20": {
+      "connected_to": "Spine20-port8",
+      "dst-dpid": "Spine20",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine20-port9": {
+      "connected_to": "ULeaf9-port20",
+      "dst-dpid": "ULeaf9",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf9-port20": {
+      "connected_to": "Spine20-port9",
+      "dst-dpid": "Spine20",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine20-port10": {
+      "connected_to": "ULeaf10-port20",
+      "dst-dpid": "ULeaf10",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf10-port20": {
+      "connected_to": "Spine20-port10",
+      "dst-dpid": "Spine20",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine20-port11": {
+      "connected_to": "ULeaf11-port20",
+      "dst-dpid": "ULeaf11",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf11-port20": {
+      "connected_to": "Spine20-port11",
+      "dst-dpid": "Spine20",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine20-port12": {
+      "connected_to": "ULeaf12-port20",
+      "dst-dpid": "ULeaf12",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf12-port20": {
+      "connected_to": "Spine20-port12",
+      "dst-dpid": "Spine20",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine20-port13": {
+      "connected_to": "ULeaf13-port20",
+      "dst-dpid": "ULeaf13",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf13-port20": {
+      "connected_to": "Spine20-port13",
+      "dst-dpid": "Spine20",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine20-port14": {
+      "connected_to": "ULeaf14-port20",
+      "dst-dpid": "ULeaf14",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf14-port20": {
+      "connected_to": "Spine20-port14",
+      "dst-dpid": "Spine20",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine20-port15": {
+      "connected_to": "ULeaf15-port20",
+      "dst-dpid": "ULeaf15",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf15-port20": {
+      "connected_to": "Spine20-port15",
+      "dst-dpid": "Spine20",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine20-port16": {
+      "connected_to": "ULeaf16-port20",
+      "dst-dpid": "ULeaf16",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf16-port20": {
+      "connected_to": "Spine20-port16",
+      "dst-dpid": "Spine20",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine20-port17": {
+      "connected_to": "ULeaf17-port20",
+      "dst-dpid": "ULeaf17",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf17-port20": {
+      "connected_to": "Spine20-port17",
+      "dst-dpid": "Spine20",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "Spine20-port18": {
+      "connected_to": "ULeaf18-port20",
+      "dst-dpid": "ULeaf18",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf18-port20": {
+      "connected_to": "Spine20-port18",
+      "dst-dpid": "Spine20",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf1-port21": {
+      "connected_to": "LLeaf1-port1",
+      "dst-dpid": "LLeaf1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "LLeaf1-port1": {
+      "connected_to": "ULeaf1-port21",
+      "dst-dpid": "ULeaf1",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf2-port21": {
+      "connected_to": "LLeaf2-port1",
+      "dst-dpid": "LLeaf2",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "LLeaf2-port1": {
+      "connected_to": "ULeaf2-port21",
+      "dst-dpid": "ULeaf2",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf3-port21": {
+      "connected_to": "LLeaf3-port1",
+      "dst-dpid": "LLeaf3",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "LLeaf3-port1": {
+      "connected_to": "ULeaf3-port21",
+      "dst-dpid": "ULeaf3",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf4-port21": {
+      "connected_to": "LLeaf4-port1",
+      "dst-dpid": "LLeaf4",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "LLeaf4-port1": {
+      "connected_to": "ULeaf4-port21",
+      "dst-dpid": "ULeaf4",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf5-port21": {
+      "connected_to": "LLeaf5-port1",
+      "dst-dpid": "LLeaf5",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "LLeaf5-port1": {
+      "connected_to": "ULeaf5-port21",
+      "dst-dpid": "ULeaf5",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf6-port21": {
+      "connected_to": "LLeaf6-port1",
+      "dst-dpid": "LLeaf6",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "LLeaf6-port1": {
+      "connected_to": "ULeaf6-port21",
+      "dst-dpid": "ULeaf6",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf7-port21": {
+      "connected_to": "LLeaf7-port1",
+      "dst-dpid": "LLeaf7",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "LLeaf7-port1": {
+      "connected_to": "ULeaf7-port21",
+      "dst-dpid": "ULeaf7",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf8-port21": {
+      "connected_to": "LLeaf8-port1",
+      "dst-dpid": "LLeaf8",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "LLeaf8-port1": {
+      "connected_to": "ULeaf8-port21",
+      "dst-dpid": "ULeaf8",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf9-port21": {
+      "connected_to": "LLeaf9-port1",
+      "dst-dpid": "LLeaf9",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "LLeaf9-port1": {
+      "connected_to": "ULeaf9-port21",
+      "dst-dpid": "ULeaf9",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf10-port21": {
+      "connected_to": "LLeaf10-port1",
+      "dst-dpid": "LLeaf10",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "LLeaf10-port1": {
+      "connected_to": "ULeaf10-port21",
+      "dst-dpid": "ULeaf10",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf11-port21": {
+      "connected_to": "LLeaf11-port1",
+      "dst-dpid": "LLeaf11",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "LLeaf11-port1": {
+      "connected_to": "ULeaf11-port21",
+      "dst-dpid": "ULeaf11",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf12-port21": {
+      "connected_to": "LLeaf12-port1",
+      "dst-dpid": "LLeaf12",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "LLeaf12-port1": {
+      "connected_to": "ULeaf12-port21",
+      "dst-dpid": "ULeaf12",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf13-port21": {
+      "connected_to": "LLeaf13-port1",
+      "dst-dpid": "LLeaf13",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "LLeaf13-port1": {
+      "connected_to": "ULeaf13-port21",
+      "dst-dpid": "ULeaf13",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf14-port21": {
+      "connected_to": "LLeaf14-port1",
+      "dst-dpid": "LLeaf14",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "LLeaf14-port1": {
+      "connected_to": "ULeaf14-port21",
+      "dst-dpid": "ULeaf14",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf15-port21": {
+      "connected_to": "LLeaf15-port1",
+      "dst-dpid": "LLeaf15",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "LLeaf15-port1": {
+      "connected_to": "ULeaf15-port21",
+      "dst-dpid": "ULeaf15",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf16-port21": {
+      "connected_to": "LLeaf16-port1",
+      "dst-dpid": "LLeaf16",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "LLeaf16-port1": {
+      "connected_to": "ULeaf16-port21",
+      "dst-dpid": "ULeaf16",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf17-port21": {
+      "connected_to": "LLeaf17-port1",
+      "dst-dpid": "LLeaf17",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "LLeaf17-port1": {
+      "connected_to": "ULeaf17-port21",
+      "dst-dpid": "ULeaf17",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "ULeaf18-port21": {
+      "connected_to": "LLeaf18-port1",
+      "dst-dpid": "LLeaf18",
+      "bandwidth": 400,
+      "delay": "0ms"
+    },
+    "LLeaf18-port1": {
+      "connected_to": "ULeaf18-port21",
+      "dst-dpid": "ULeaf18",
+      "bandwidth": 400,
+      "delay": "0ms"
+    }
+  }
+}

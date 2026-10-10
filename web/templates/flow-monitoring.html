@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flow Monitoring - SDN Dashboard</title>
+    <link rel="stylesheet" href="/web/static/css/flow-monitoring.css">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="header">
+        <h1>Flow Monitoring Dashboard</h1>
+        <p>Flow ledger, bandwidth limits and Agent1 path rewards</p>
+    </div>
+
+    <div class="nav-menu">
+        <a href="/dashboard">Dashboard</a>
+        <a href="/topology-view">Topology</a>
+        <a href="/flow-monitoring">Flow Monitoring</a>
+        <a href="/agent-control">Agent Control</a>
+        <button class="refresh-btn" onclick="refreshFlowData()">Refresh Data</button>
+    </div>
+
+    <div class="monitoring-grid">
+        <div class="monitor-panel">
+            <h3>Tracked Flows</h3>
+            <div id="trackedFlowsTable"></div>
+        </div>
+
+        <div class="monitor-panel">
+            <h3>Bandwidth Limits</h3>
+            <div id="bwLimitsTable"></div>
+        </div>
+    </div>
+
+    <div class="chart-container">
+        <h3>Path Rewards</h3>
+        <div id="pathRewardsChart" style="height: 400px;"></div>
+    </div>
+
+    <script>
+        function refreshFlowData() {
+            loadTrackedFlowsTable();
+            loadBwLimitsTable();
+            loadPathRewardsChart();
+        }
+
+        function fmt(value, digits) {
+            return (typeof value === 'number' && isFinite(value)) ? value.toFixed(digits) : 'N/A';
+        }
+
+        function keyValueTable(header, rows) {
+            let tableHtml = `<table class="flow-table"><thead><tr><th>${header}</th><th>Value</th></tr></thead><tbody>`;
+            rows.forEach(([label, value]) => {
+                const shown = (value === undefined || value === null) ? 'N/A' : value;
+                tableHtml += `<tr><td>${label}</td><td>${shown}</td></tr>`;
+            });
+            tableHtml += '</tbody></table>';
+            return tableHtml;
+        }
+
+        // /api/v1/flows/tracked: {tracked: {total, tcp_fwd, tcp_rev, mptcp, other, paths_with_fwd_flows}}
+        function loadTrackedFlowsTable() {
+            $.get('/api/v1/flows/tracked', function(data) {
+                const t = data.tracked || {};
+                $('#trackedFlowsTable').html(keyValueTable('Flow ledger', [
+                    ['Tracked flows', t.total],
+                    ['TCP forward', t.tcp_fwd],
+                    ['TCP reverse', t.tcp_rev],
+                    ['MPTCP subflows', t.mptcp],
+                    ['Other', t.other],
+                    ['Paths with forward flows', t.paths_with_fwd_flows]
+                ]));
+            }).fail(function() {
+                $('#trackedFlowsTable').html('<p>Failed to load tracked flows data</p>');
+            });
+        }
+
+        // /api/v1/energy/bw-limits: {enabled, dry_run, stats: {n, min, median, max, mean,
+        // n_at_min, n_at_max, n_paths_with_flows}, limits}. Only the paths with live flows are
+        // requested to keep the payload small; the summary covers the whole limit table.
+        function loadBwLimitsTable() {
+            $.get('/api/v1/energy/bw-limits?active_only=1', function(data) {
+                const s = data.stats || {};
+                $('#bwLimitsTable').html(keyValueTable('Bandwidth limits', [
+                    ['Enabled', data.enabled ? 'Yes' : 'No'],
+                    ['Dry run', data.dry_run ? 'Yes' : 'No'],
+                    ['Paths with a limit', s.n],
+                    ['Paths with live flows', s.n_paths_with_flows],
+                    ['Min / median / max (Mbps)', `${fmt(s.min, 1)} / ${fmt(s.median, 1)} / ${fmt(s.max, 1)}`],
+                    ['Mean (Mbps)', fmt(s.mean, 1)],
+                    ['Paths at min / at max', `${s.n_at_min === undefined ? 'N/A' : s.n_at_min} / ${s.n_at_max === undefined ? 'N/A' : s.n_at_max}`]
+                ]));
+            }).fail(function() {
+                $('#bwLimitsTable').html('<p>Failed to load bandwidth limit data</p>');
+            });
+        }
+
+        // /api/v1/flows/rewards: {path_rewards: {path_key: reward}} (one float per path)
+        function loadPathRewardsChart() {
+            $.get('/api/v1/flows/rewards', function(data) {
+                const pathRewards = data.path_rewards || {};
+                const pathIds = Object.keys(pathRewards).sort();
+
+                if (pathIds.length === 0) {
+                    $('#pathRewardsChart').html('<p style="text-align: center; padding: 50px;">No path rewards data available</p>');
+                    return;
+                }
+
+                const rewards = pathIds.map(pathId => Number(pathRewards[pathId]) || 0);
+
+                const trace = {
+                    x: pathIds,
+                    y: rewards,
+                    type: 'bar',
+                    marker: { color: '#2ecc71' },
+                    name: 'Path Reward'
+                };
+
+                const layout = {
+                    title: 'Path Rewards',
+                    xaxis: { title: 'Path ID', tickangle: -45, automargin: true },
+                    yaxis: { title: 'Reward Value' },
+                    margin: { l: 50, r: 50, t: 50, b: 50 }
+                };
+
+                Plotly.newPlot('pathRewardsChart', [trace], layout);
+            }).fail(function() {
+                $('#pathRewardsChart').html('<p style="text-align: center; padding: 50px;">Failed to load path rewards chart</p>');
+            });
+        }
+
+        // Auto-refresh every 15 seconds
+        setInterval(refreshFlowData, 15000);
+
+        // Initial load
+        refreshFlowData();
+    </script>
+</body>
+</html>

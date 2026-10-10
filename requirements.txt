@@ -1,0 +1,11 @@
+# Python 3.8 (ryu 4.34 and eventlet 0.30.2 do not run on newer interpreters)
+ryu==4.34
+eventlet==0.30.2
+tinyrpc==1.1.7
+WebOb==1.8.9
+Routes==2.5.1
+dnspython==1.16.0
+networkx==3.1
+numpy==1.24.4
+# CPU build is enough: pip install torch==2.4.1 --index-url https://download.pytorch.org/whl/cpu
+torch==2.4.1

@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+
+# runtime outputs (one file per run)
+data/controller_log/
+data/power/
+data/energy/
+data/flows/
+data/all_paths/all_paths_[0-9]*.json
+data/all_paths/all_paths_dpid_[0-9]*.json
+RL/training_metrics/
+models/

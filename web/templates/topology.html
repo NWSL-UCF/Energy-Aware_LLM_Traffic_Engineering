@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Network Topology - SDN Dashboard</title>
+    <link rel="stylesheet" href="/web/static/css/topology.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h1>Network Topology Visualization</h1>
+    <a href="/dashboard">← Back to Dashboard</a>
+
+    <div class="controls">
+        <button onclick="refreshTopology()">Refresh Topology</button>
+        <label>Layout:
+            <select id="layoutSelect" onchange="updateLayout()">
+                <option value="force">Force-directed</option>
+                <option value="circular">Circular</option>
+                <option value="hierarchical">Hierarchical</option>
+            </select>
+        </label>
+    </div>
+
+    <div id="topology" class="topology-container" style="width: 100%; height: 600px;"></div>
+
+    <script src="/web/static/js/topology.js"></script>
+</body>
+</html>

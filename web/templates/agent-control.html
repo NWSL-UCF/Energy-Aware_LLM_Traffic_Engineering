@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Agent Control - SDN Dashboard</title>
+    <link rel="stylesheet" href="/web/static/css/agent-control.css">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="header">
+        <h1>Agent Control Dashboard</h1>
+        <p>Control and monitor the RL agent</p>
+    </div>
+
+    <div class="nav-menu">
+        <a href="/dashboard">Dashboard</a>
+        <a href="/topology-view">Topology</a>
+        <a href="/flow-monitoring">Flow Monitoring</a>
+        <a href="/agent-control">Agent Control</a>
+    </div>
+
+    <div class="agent-status" id="agentStatus">
+        <!-- Agent status card is populated by JavaScript -->
+    </div>
+
+    <div class="control-panel">
+        <h3>Agent Controls</h3>
+        <div>
+            <label for="agent1Toggle">Agent1 Enable: </label>
+            <label class="toggle-switch">
+                <input type="checkbox" id="agent1Toggle" onchange="toggleAgent1()">
+                <span class="slider"></span>
+            </label>
+        </div>
+    </div>
+
+    <div class="chart-container">
+        <h3>Agent1 Path Probabilities</h3>
+        <div id="probabilitiesChart" style="height: 400px;"></div>
+    </div>
+
+    <script>
+        // /api/v1/agents/status: {agent1: {enabled, ready, device, path_probabilities, rewards_collected}}
+        function loadAgentStatus() {
+            $.get('/api/v1/agents/status', function(data) {
+                const statusContainer = document.getElementById('agentStatus');
+                statusContainer.innerHTML = '';
+
+                if (data.agent1) {
+                    const agent1Card = createAgentStatusCard('Agent1', data.agent1);
+                    statusContainer.appendChild(agent1Card);
+
+                    // Update toggle switch
+                    document.getElementById('agent1Toggle').checked = data.agent1.enabled;
+                }
+            }).fail(function() {
+                document.getElementById('agentStatus').innerHTML = '<p>Failed to load agent status</p>';
+            });
+        }
+
+        function createAgentStatusCard(name, agentData) {
+            const card = document.createElement('div');
+            card.className = 'status-card';
+            card.innerHTML = `
+                <h3>${name}</h3>
+                <p><strong>Status:</strong> ${agentData.enabled ? 'Enabled' : 'Disabled'}</p>
+                <p><strong>Ready:</strong> ${agentData.ready ? 'Yes' : 'No'}</p>
+                <p><strong>Device:</strong> ${agentData.device}</p>
+                <p><strong>Path Probabilities:</strong> ${agentData.path_probabilities}</p>
+                <p><strong>Rewards Collected:</strong> ${agentData.rewards_collected}</p>
+            `;
+            return card;
+        }
+
+        function toggleAgent1() {
+            const enabled = document.getElementById('agent1Toggle').checked;
+
+            $.ajax({
+                url: '/api/v1/agents/agent1/enable',
+                method: 'POST',
+                contentType: 'application/json',
+                data: JSON.stringify({enabled: enabled}),
+                success: function(data) {
+                    console.log('Agent1 toggle successful:', data);
+                    loadAgentStatus(); // Refresh status
+                },
+                error: function(xhr, status, error) {
+                    console.error('Failed to toggle Agent1:', error);
+                    // Revert toggle
+                    document.getElementById('agent1Toggle').checked = !enabled;
+                }
+            });
+        }
+
+        // /api/v1/agents/agent1/probabilities: {path_probabilities: {path_key: probability}}
+        function loadProbabilitiesChart() {
+            $.get('/api/v1/agents/agent1/probabilities', function(data) {
+                const probabilities = data.path_probabilities || {};
+
+                if (Object.keys(probabilities).length === 0) {
+                    $('#probabilitiesChart').html('<p style="text-align: center; padding: 50px;">No probability data available</p>');
+                    return;
+                }
+
+                const pathIds = Object.keys(probabilities);
+                const probs = pathIds.map(pathId => probabilities[pathId]);
+
+                const trace = {
+                    x: pathIds,
+                    y: probs,
+                    type: 'bar',
+                    marker: { color: '#9b59b6' },
+                    name: 'Probability'
+                };
+
+                const layout = {
+                    title: 'Agent1 Path Selection Probabilities',
+                    xaxis: { title: 'Path ID' },
+                    yaxis: { title: 'Probability', range: [0, 1] },
+                    margin: { l: 50, r: 50, t: 50, b: 50 }
+                };
+
+                Plotly.newPlot('probabilitiesChart', [trace], layout);
+            }).fail(function() {
+                $('#probabilitiesChart').html('<p style="text-align: center; padding: 50px;">Failed to load probabilities chart</p>');
+            });
+        }
+
+        function refreshAgentData() {
+            loadAgentStatus();
+            loadProbabilitiesChart();
+        }
+
+        // Auto-refresh every 10 seconds
+        setInterval(refreshAgentData, 10000);
+
+        // Initial load
+        refreshAgentData();
+    </script>
+</body>
+</html>
